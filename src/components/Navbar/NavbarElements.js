@@ -37,12 +37,22 @@ export const Nav = styled.nav`
         width:100%;
         top:0;
         left:0;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         .logo-nav-mobile{
         display:flex;
         width:125px;
         align-self:center;
         margin-top: 15.5px;
+    }
+}
+
+    @media screen and (max-width:320px){
+        .logo-nav-mobile{
+        display:flex;
+        width:110px;
+        align-self:center;
+        margin-top: 11px;
+
     }
        
     }
@@ -97,8 +107,9 @@ export const MobileBurguerMenuIcon = styled.div`
         img{
             width:26px;
         }
-        
-      
-        
+    }
+
+    @media screen and (max-width:320px){
+        top:2px;
     }
 `

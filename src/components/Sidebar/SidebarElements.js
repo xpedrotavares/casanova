@@ -95,5 +95,12 @@ export const SidebarLogo = styled.div`
         height:53px;
     }
 
+    @media screen and (max-width:320px){
+        img{
+        margin-top: -70px;
+       
+    }
+}
+
 `
 
