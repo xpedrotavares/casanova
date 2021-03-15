@@ -22,8 +22,14 @@ export const HeroContainer = styled.div`
   @media screen and (max-width: 768px) {
     margin-top: 7.5vh;
     height: 92.5vh;
+    img{
+        display:none;
+    }
+   
+    .location{
+        display:none;
+    }
   }
-
   .location{
       /* Fairfax, VA */
 
@@ -48,6 +54,7 @@ span{
 }
 
   }
+
 `;
 
 export const HeroBgMask = styled.div`
@@ -184,7 +191,7 @@ export const HeroLocation = styled.div`
     line-height: 12px;
     letter-spacing: -0.015em;
     margin-top: 57px;
-
+    margin-bottom:70px;
     color: #ffffff;
     span {
       font-weight: 400;
@@ -214,4 +221,9 @@ export const HeroArrow = styled.div`
     position:absolute;
   margin-top: 30px;
   bottom: 60px;
+
+  @media screen and (max-width:768px){
+      position:none;
+    
+  }
 `;

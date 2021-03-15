@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
     width:100%;
-    height:110vh;
+    height:145vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -50,7 +50,7 @@ color: #223240;
 `
 
 export const MainParagraph = styled.p`
-width:321px;
+width:320px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;
@@ -67,22 +67,45 @@ color: #727272;
 `
 
 export const ServicesContainer = styled.div`
-    /* display:flex;
+    display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:center;
-    text-align:center; */
+    width: 220px;
+    height:610px; 
+    justify-content: space-between;
+    margin-top: 50px;
+
 
 `
 
 export const ServiceSection = styled.section`
-
 `
 
 export const ServicesTitle = styled.h1`
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #223240;
+margin-top:13px;
+margin-bottom: 12px;
+
 
 `
 
 export const ServiceParagraph = styled.p`
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 24px;
+/* or 171% */
+text-align: center;
+letter-spacing: -0.015em;
+color: #828282;
+
+margin-top:0px;
 
 `

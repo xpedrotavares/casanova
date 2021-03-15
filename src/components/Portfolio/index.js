@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <PortfolioContainer>
       <MainTitle>Portfolio</MainTitle>
-      <MainSubtitle>LLorem ipsum dolor Lormsns</MainSubtitle>
+      <MainSubtitle>Lorem ipsum dolor</MainSubtitle>
       <MainParagraph>
         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
         fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
@@ -20,7 +20,7 @@ const Portfolio = () => {
         magni dolores eos qui ratione ptatem.
       </MainParagraph>
       <div>
-
+          
       </div>
         <TestimonialsContainer>
  
