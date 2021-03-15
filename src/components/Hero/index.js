@@ -5,7 +5,7 @@ import React from 'react'
 import {HeroContainer, HeroBgMask, HeroSloganContainer, HeroArticle, HeroTitle, HeroSubtitle, CalltoActionButton, SocialMediaContainer, HeroLocation, HeroArrow} from './HeroElements'
 
 import { makeStyles } from '@material-ui/core/styles'
-
+import Logo from '../../images/logo-casanova.png'
 
 const useStyles = makeStyles({
     root:{
@@ -19,6 +19,7 @@ const Hero = () => {
         <div className={classes.root}>
             <HeroContainer >
                 <HeroBgMask>
+                    <img src={Logo} />
                 <HeroSloganContainer>
                     <p>DESIGN & BUILD</p>
                 </HeroSloganContainer>
@@ -55,6 +56,8 @@ in a <span>new way</span></HeroTitle>
                 <HeroLocation>
                     <p><span>Fairfax,</span>VA</p>
                 </HeroLocation>  
+
+                <p className="location"><span>Fairfax,</span> VA</p>
                 <HeroArrow>
                 <svg width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M7.29289 29.7071C7.68342 30.0976 8.31658 30.0976 8.70711 29.7071L15.0711 23.3431C15.4616 22.9526 15.4616 22.3195 15.0711 21.9289C14.6805 21.5384 14.0474 21.5384 13.6569 21.9289L8 27.5858L2.34314 21.9289C1.95262 21.5384 1.31946 21.5384 0.928931 21.9289C0.538407 22.3195 0.538407 22.9526 0.928931 23.3431L7.29289 29.7071ZM7 -4.37114e-08L7 29L9 29L9 4.37114e-08L7 -4.37114e-08Z" fill="white"/>

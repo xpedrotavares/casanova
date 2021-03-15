@@ -86,7 +86,7 @@ font-family: 'Poppins';
     text-align: left;
     /* letter-spacing: 0.015em; */
     /* color: white; */
-    color: black;
+    color: white;
     cursor: pointer;
 
     &.active {
