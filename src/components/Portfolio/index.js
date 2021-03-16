@@ -16,7 +16,7 @@ import Star from '../../images/star.png'
 
 const Portfolio = () => {
   return (
-    <PortfolioContainer>
+    <PortfolioContainer id='portfolio'>
       <MainTitle>Portfolio</MainTitle>
       <MainSubtitle>Lorem ipsum dolor</MainSubtitle>
       <MainParagraph>

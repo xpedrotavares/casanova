@@ -17,16 +17,16 @@ const Navbar = ( { toggle } ) => {
         </MobileBurguerMenuIcon>
         <NavMenu>
           <NavItem>
-            <NavLinks to='home'>Home.</NavLinks>
+            <NavLinks smooth={true} duration={600} spy={true} exact="true" to='home'>Home.</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to='about'>About us.</NavLinks>
+            <NavLinks smooth={true} duration={600} spy={true} exact="true" to='about'>About us.</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to='portfolio'>Portfolio.</NavLinks>
+            <NavLinks smooth={true} duration={600} spy={true} exact="true" to='portfolio'>Portfolio.</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to='contact' >Contact.</NavLinks>
+            <NavLinks smooth={true} duration={600} spy={true} exact="true"to='contact' >Contact.</NavLinks>
           </NavItem>
         </NavMenu>
       </Nav>

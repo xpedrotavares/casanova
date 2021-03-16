@@ -16,7 +16,7 @@ const useStyles = makeStyles({
 const Hero = () => {
     const classes = useStyles();
     return (
-        <div className={classes.root}>
+        <div id='home' className={classes.root}>
             <HeroContainer >
                 <HeroBgMask>
                     <img src={Logo} />

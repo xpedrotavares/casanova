@@ -12,7 +12,7 @@ import './style.css'
 
 const Contact = () => {
     return (
-        <ContactContainer>
+        <ContactContainer id='contact'>
               <Grid className="container-contact d-flex justify-content-center align-items-center" container>
         
         <Grid className="contact__upper-text-grid" item>
