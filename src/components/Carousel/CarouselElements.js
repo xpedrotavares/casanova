@@ -3,7 +3,8 @@ import styled from "styled-components";
 import Slider from "react-slick";
 
 export const CarouselContainer = styled(Slider)`
-  width: 61vw;
+  width: 60vw;
+  margin-top:80px; 
   .slick-prev {
     width: 11.47px;
     height: 20.68px;
@@ -15,6 +16,7 @@ export const CarouselContainer = styled(Slider)`
 
   @media screen and (max-width: 768px) {
     width: 75vw;
+    margin-top:0; 
 
 
 }
@@ -22,7 +24,7 @@ export const CarouselContainer = styled(Slider)`
 
 export const ImageContainer = styled.div`
   margin: 0 !important;
-  /* width: 62vw; */
+  /* width: 62vw;  */
 `;
 
 export const SlideImage = styled.img`
