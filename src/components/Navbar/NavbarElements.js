@@ -65,11 +65,25 @@ export const NavMenu = styled.ul`
     align-items: left;
     list-style: none;
     height:203.85px;
-
     @media screen and (max-width:768px){
         display: none;
     }
+    .text-color{
+        font-family: 'Poppins';
+        font-size: 20px;
+        font-weight: 300;
+        text-align: left;
+        /* letter-spacing: 0.015em; */
+        /* color: white; */
+        color: white;
+        cursor: pointer;
+        transition: 0.6s ease-in-out;
+}
 
+.text-color-navlink{
+    color: #223240;
+    transition: 0.6s ease-in-out;
+}
 
    
 
@@ -90,8 +104,31 @@ font-family: 'Poppins';
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid red;
+        border-bottom: 2px solid #EC8F6A;
+        color: #EC8F6A;
+        
     }
+
+
+
+
+
+
+
+    /* &.contact.active, &.home, &.contact, &.portfolio, &.about{
+        color:white!important;
+    } */
+
+/*     
+    &.home.active {
+        border-bottom: 3px solid red;
+        color: white;
+        
+    }
+    &.about.active {
+        color:black;
+    } */
+
 `
 
 export const MobileBurguerMenuIcon = styled.div`
