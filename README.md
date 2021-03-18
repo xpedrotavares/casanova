@@ -10,7 +10,7 @@
   </p>
 </br>
 </br>
-(![casanova](https://user-images.githubusercontent.com/54810767/111556980-8b670600-876a-11eb-9d63-6df19d929006.png)
+![casanova](https://user-images.githubusercontent.com/54810767/111556980-8b670600-876a-11eb-9d63-6df19d929006.png)
 
 
 ## 📝 About
