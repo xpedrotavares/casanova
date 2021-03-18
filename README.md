@@ -13,6 +13,9 @@
 
 ![casanova](https://user-images.githubusercontent.com/54810767/111557455-763ea700-876b-11eb-8697-8e3eafec8139.png)
 
+**<i>Most of the text is just Lorem Ipsum | This image is just the figma prototype. So if you run the project it may not be the same as the prototype in the photo above --- the project is still in progress</i>**
+
+
 
 ## 📝 About
   
