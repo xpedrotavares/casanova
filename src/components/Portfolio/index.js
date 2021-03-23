@@ -44,7 +44,7 @@ const Portfolio = () => {
             <StarImage src={Star}></StarImage>
           </TestimonialsStarSection>
           <ClientTestimonialTextContainer>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit asernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi Neque porro quisquam est. Nemo voluptatem sequ ipsam.
+          <p>We were beyond thrilled to see our vision come true! CasaNova was a delight to work with, through and through. From the initial contact with Jess and Chris, to seeing everything come together! They promised timely delivery, open communication, and amazing results, which is exactly what we got; all while answering all our million questions. Would definitely recommend CasaNova to anyone considering remodeling their kitchen or bathroom!
           </p>
           <p className="client-name"><span>Surname</span> Name</p>
           </ClientTestimonialTextContainer>

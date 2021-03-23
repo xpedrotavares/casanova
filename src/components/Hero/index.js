@@ -24,9 +24,11 @@ const Hero = () => {
                     <p>DESIGN & BUILD</p>
                 </HeroSloganContainer>
                 <HeroArticle>
-                    <HeroTitle>Your home<br/>
-in a <span>new way</span></HeroTitle>  
-                    <HeroSubtitle>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque por.</HeroSubtitle>  
+                    <HeroTitle>Welcome<br/>
+                    to <span>CasaNova</span></HeroTitle>  
+                    <HeroSubtitle>Your friendly one-stop-shop for your remodeling wishes. We’re excited to get to know you and your project! 
+
+</HeroSubtitle>  
                 
                 <CalltoActionButton variant="contained" color="primary" text="primary">Contact Us</CalltoActionButton>
                 </HeroArticle>
