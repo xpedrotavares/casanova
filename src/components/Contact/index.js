@@ -52,7 +52,7 @@ const Contact = () => {
           className="contact-form d-flex flex-column align-items-center justify-content-center"
           item
         >
-            <container>
+            <container className="d-flex flex-column justify-content-center align-items-center ">
   
           <div>
             <TextField
@@ -65,7 +65,7 @@ const Contact = () => {
               // helperText="Some validation error"
               />
          <TextField
-           className="single-line-inputs first-name-input mr-4"
+           className="single-line-inputs first-name-input "
           id="outlined-select-currency"
           select
           label="What's the best way to contact you?"

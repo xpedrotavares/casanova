@@ -1,24 +1,27 @@
 
 import './styles.css'
 
-import { makeStyles } from '@material-ui/core/styles'
+import { ThemeProvider } from '@material-ui/core'
 import {BrowserRouter as Router} from 'react-router-dom'
 import Home from "./pages";
+import theme from "./theme"
 
+// const useStyles = makeStyles({
+//   root:{
 
-const useStyles = makeStyles({
-  root:{
-
-  }
-})
+//   }
+// })
 
 
 function App() {
-  const classes = useStyles();
+  // const classes = useStyles();
   return (
-    <Router classeName={classes.root}>
+    <ThemeProvider theme={theme}>
+
+    <Router >
       <Home />
     </Router>
+    </ThemeProvider>
   );
 }
 

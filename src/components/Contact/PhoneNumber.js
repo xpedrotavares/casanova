@@ -87,7 +87,7 @@ export default function FormattedInputs() {
      
        
      <OutlinedInput
-     className="single-line-inputs first-name-input mr-4"
+     className="single-line-inputs first-name-input"
     labelWidth={170}
         //  label="12dhsaiudasiudhas3"
    

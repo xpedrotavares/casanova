@@ -1,54 +1,24 @@
-import React from "react";
-
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-
+import React from 'react'
 
 import hatIcon from "../../images/hat-icon.png";
 import coneIcon from "../../images/cone-icon.png";
 import tapIcon from "../../images/tap-icon.png";
 import hammerIcon from "../../images/hammer-icon.png";
 
-
-
 import {
-  AboutContainer,
-  MainTitle,
-  MainSubtitle,
-  MainParagraph,
-  ServicesContainer,
-  ServiceSection,
-  ServicesTitle,
-  ServiceParagraph,
-  SvgMobile,
-  SvgDesktop,
-} from "./AboutElements";
-import Services from "../Services";
+  
+    ServicesContainer,
+    ServiceItem,
+    ServicesTitle,
+    ServiceParagraph,
+  
+  } from "./ServicesElements";
 
-
-
-const About = ({ lg, xl }) => {
-  return (
-   
-      <AboutContainer id="about">
-        <MainTitle>About us</MainTitle>
-        <MainSubtitle>Lorem ipsum dolor Lorem ipsum dolor Lorem</MainSubtitle>
-        <MainParagraph>
-          We are two siblings who decided to unite both our passion for design
-          and our skillset in construction to help you attain your remodeling
-          wishes. Successfully serving the DMV area for several years, we thrive
-          for our clients to have a smooth and stress-free experience throughout
-          our time together. Taking on all forms and sizes of projects - from
-          kitchen and bathrooms, fireplaces, and decks, to full additions and
-          roofing. We work with our clientele to design, create and produce work
-          that we’re proud of - with trust, commitment, and exceptional
-          workmanship.
-          <br />
-          <br />
-        </MainParagraph>
-        <Services />
-
-        {/* <ServicesContainer container>
-          <ServiceSection item lg={6} xl={3} >
+const Services = ({ lg, xl }) => {
+    return (
+      
+               <ServicesContainer container>
+          <ServiceItem item md={6} xl={3} >
             <img src={tapIcon} width="65.998" />
 
             <ServicesTitle>Full Project</ServicesTitle>
@@ -58,9 +28,9 @@ const About = ({ lg, xl }) => {
               we will take measurements to provide you with a free estimate and
               a 3D rendering of what the results will look like.
             </ServiceParagraph>
-          </ServiceSection>
+          </ServiceItem>
 
-          <ServiceSection item lg={6} xl={3}>
+          <ServiceItem item md={6} xl={3}>
             <img src={tapIcon} width="65.998"  />
 
             <ServicesTitle>Remodeling</ServicesTitle>
@@ -69,9 +39,9 @@ const About = ({ lg, xl }) => {
               rendering based on your vision - this way you can visualize what
               your project will look like when finished.
             </ServiceParagraph>
-          </ServiceSection>
+          </ServiceItem>
 
-          <ServiceSection item lg={6} xl={3} >
+          <ServiceItem item md={6} xl={3} >
             <img src={tapIcon} width="65.998" />
 
             <ServicesTitle>Design</ServicesTitle>
@@ -82,9 +52,9 @@ const About = ({ lg, xl }) => {
               any changes to the design where needed and provide a rough project
               schedule. Here we go over the nitty gritty
             </ServiceParagraph>
-          </ServiceSection>
+          </ServiceItem>
 
-          <ServiceSection item lg={6} xl={3} >
+          <ServiceItem item md={6} xl={3} >
             <img src={tapIcon} width="65.998" />
 
             <ServicesTitle>Another</ServicesTitle>
@@ -94,13 +64,11 @@ const About = ({ lg, xl }) => {
               life/come true, always maintaining an open line of communication
               and regular updates throughout the process.
             </ServiceParagraph>
-          </ServiceSection>
+          </ServiceItem>
 
-        </ServicesContainer> */}
+        </ServicesContainer>
+        
+    )
+}
 
-      </AboutContainer>
-   
-  );
-};
-
-export default About;
+export default Services

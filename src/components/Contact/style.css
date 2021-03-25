@@ -21,6 +21,16 @@
     margin-bottom: 35px!important;
 }
 
+.last-name-input{
+    margin-right:0!important;
+
+}
+
+.phone-input{
+    margin-right:0!important;
+
+}
+
 .message-input{
     width: 700px!important;
     color: white !important;
@@ -50,11 +60,12 @@
     }
     
     .contact__upper-text-grid{
+        /* border: 1px solid red; */
         font-family: 'Poppins';
         display: flex;
         flex-direction:column;
     justify-content: left;
-    width: 37%;
+    width: 700px;
     
     
     /* Rectangle 20 *
@@ -107,6 +118,7 @@
         border-top: 1px solid white;
         height: 1px;
         margin-top: 16px;
+        margin-bottom: 36px;
        
     }
     
