@@ -1,8 +1,15 @@
 
 .container-contact{
     width: 100vw;
-    height: 100vh;
+    height: 140vh;
     background-color: #223140;
+  
+}
+
+
+#contact{
+    display: flex;
+    align-items: center;
 }
 
 .contact-form{
@@ -11,6 +18,7 @@
 
 .single-line-inputs{
     width: 340px;
+    /* margin-left:24px; */
 }
 .MuiOutlinedInput-notchedOutline {
     border-color: #768089!important;
@@ -26,15 +34,101 @@
 
 }
 
+.first-name-input, .email-input{
+    margin-right: 24px!important;
+}
 .phone-input{
-    margin-right:0!important;
+    margin-right: 0!important;
 
 }
 
 .message-input{
-    width: 700px!important;
+    width: 703px;
     color: white !important;
+    
 }
+
+.address-div-desktop{
+    display:inherit;
+}
+
+.address-div-mobile{
+    display:none;
+}
+
+@media screen and (max-width:800px){
+    .message-input{
+        width: 340px;
+        
+    }
+    .div-inputs-contact{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .single-line-inputs{
+        margin-right:0!important;
+    }
+    
+    .contact__upper-text-grid{
+    
+        justify-content: center;
+            align-items: left;
+            width: 340px!important;
+    }
+        
+    .contact__contacts{
+        display: flex;
+        flex-direction: column;
+        width: fit-content!important;
+        align-self: flex-end;
+        text-align:center;
+        border: 1px solid white;
+        
+        
+        }
+        .contact__contacts div p{
+        }
+        .contact__contacts div p, h6{
+            margin-right: 5px;
+            margin-left:5px;
+        }
+    .contact__contacts div{
+        display: flex;
+        border: 1px solid red;
+        justify-content: center;
+        
+        
+        }
+    .contact__contacts h6{
+        display: none;
+    }
+        .white-e{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16.5px;
+            line-height: 20px;
+            text-align: center;
+            
+            color: #FFFFFF;
+        }
+        .address-div-mobile{
+            display:inherit;
+        }
+        .address-div-desktop{
+            display:none;
+        }
+}
+
+@media screen and (max-width:1200px){
+
+
+
+};
+
 
 .MuiInputLabel-outlined{
     
@@ -123,9 +217,11 @@
     }
     
     .contact__contacts{
-    width: 40vw;
+    /* width: 40vw; */
     align-self: flex-end;
     text-align:center;
+    width: fit-content!important;
+
     }
     
     .contact__contacts div h6{
@@ -150,7 +246,7 @@
     
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 16.5px;
     line-height: 20px;
     text-align: center;

@@ -54,9 +54,9 @@ const Contact = () => {
         >
             <container className="d-flex flex-column justify-content-center align-items-center ">
   
-          <div>
+          <div className="div-inputs-contact d-flex align-content-center align-self-center justify-content-center">
             <TextField
-              className="single-line-inputs first-name-input mr-4"
+              className="single-line-inputs first-name-input"
              
               id="outlined-basic"
               label="What's your name?"
@@ -65,7 +65,7 @@ const Contact = () => {
               // helperText="Some validation error"
               />
          <TextField
-           className="single-line-inputs first-name-input "
+           className="single-line-inputs "
           id="outlined-select-currency"
           select
           label="What's the best way to contact you?"
@@ -82,9 +82,9 @@ const Contact = () => {
         </TextField>
           </div>
   
-          <div>
+          <div className="div-inputs-contact">
             <TextField
-              className="single-line-inputs email-input mr-4"
+              className="single-line-inputs email-input"
               id="outlined-basic"
               label="What's your email?"
               variant="outlined"
@@ -98,7 +98,7 @@ const Contact = () => {
               <PhoneNumber />
           </div>
   
-          <div>
+          <div className="div-inputs-contact">
             <TextField
               className="message-input"
               id="outlined-multiline-static"
@@ -117,22 +117,39 @@ const Contact = () => {
         </Grid>
         <Grid className="contact__contacts d-flex justify-content-around " item>
             <div>
+            <p>X</p>
                 <h6>Phone</h6>
                 <p>(202) 378-8417</p>
+                <span className="white-e">&</span>
                 <p>(202) 468-9657</p>
 
                 
               </div>
-            <div>
-                <h6>Address</h6>
-                <p>Fairfax, VA</p>
+            <div className="address-div-desktop">
+            <p className="address-div-desktop">X</p>
+
+                <h6 className="address-div-desktop">Address</h6>
+                <p className="address-div-desktop">Fairfax, VA</p>
                 
               </div>
             <div>
+            <p>X</p>
+
                 <h6>E-mail</h6>
                 <p>info@casanovabuilders.com</p>
                 
               </div>
+              
+
+              <div className="address-div-mobile">
+            <p className="address-div-mobile">X</p>
+
+                <h6 className="address-div-mobile">Address</h6>
+                <p className="address-div-mobile">Fairfax, VA</p>
+                
+              </div>
+            
+
         </Grid>
       </Grid>
         </ContactContainer>

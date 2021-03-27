@@ -15,7 +15,7 @@ export const PortfolioContainer = styled.div`
      justify-content:center;
      align-items:center;
      width:100%;
-     height:115vh;
+     height:140vh;
      border: 1px solid red;
      }
 `
@@ -81,7 +81,7 @@ export const TestimonialsStarSection = styled.div`
      display: flex;
      justify-content: flex-end;
      margin-top: 50px;
-
+     margin-bottom: 20px;
      @media screen and (max-width:768px){
      margin-top: 20px;
 
@@ -116,7 +116,7 @@ line-height: 30px;
 /* or 131% */
 text-align: right;
 letter-spacing: -0.015em;
-width: 460px;
+width: 630px;
 color: #828282;
 margin-bottom:0;
 

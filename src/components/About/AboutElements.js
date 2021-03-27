@@ -11,7 +11,7 @@ export const AboutContainer = styled.div`
   align-items: center;
   text-align: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     width: 100%;
     height: 250vh;
     display: flex;
@@ -102,35 +102,9 @@ export const MainParagraph = styled.p`
 
 // aquuuui
 
-export const ServicesContainer = styled(Grid)`
-  display: flex;
-height:100%;
-  border:1px solid blue;
-  /* max-width: 75%; */
-  justify-content: space-around;
-  margin-top: 120px;
-  /* align-items: start;
-  height:70% */
-
-  /* 
-@media screen and (max-width:768px){
- border: 1px solid blue;
-    display: flex;
-    flex-direction: column;
-    width: 325px;
-    height:1270px;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-@media screen and (max-width:1870px){
-    flex-wrap: wrap;
-    width:55%;
-
-} */
-`;
 
 export const ServiceSection = styled(Grid)`
-  border: 1px solid blue;
+  border: 5px solid green;
   /* border: 1px solid red; */
   max-width: 23% !important;
   height:fit-content;
