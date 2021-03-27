@@ -18,13 +18,10 @@ const Portfolio = () => {
   return (
     <PortfolioContainer id='portfolio'>
       <MainTitle>Portfolio</MainTitle>
-      <MainSubtitle>Lorem ipsum dolor</MainSubtitle>
+      <MainSubtitle>Projects we’re proud to have been a part of!</MainSubtitle>
       <MainParagraph>
-        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-        fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-        sequi nesciunt. Neque porro quisquam est. Nemo enim ipsam voluptatem
-        quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-        magni dolores eos qui ratione ptatem.
+      Through open communication and exceptional craftsmanship watch your remodeling dreams come to life! 
+Our knowledgeable and friendly team strives not only to exceed your expectations but also to help turn your house into a home. 
       </MainParagraph>
       <CarouselSection>
           <Carousel />

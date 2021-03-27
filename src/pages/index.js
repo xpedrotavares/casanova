@@ -5,7 +5,6 @@ import Hero from '../components/Hero';
 import Navbar from '../components/Navbar'
 import Portfolio from '../components/Portfolio';
 import Sidebar from '../components/Sidebar'
-import Test from "../components/Test"
 import {HomeContainer} from "./HomeElements"
 
 const Home = () => {

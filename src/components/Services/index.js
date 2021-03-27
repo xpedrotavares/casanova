@@ -21,7 +21,7 @@ const Services = ({ lg, xl }) => {
           <ServiceItem item md={6} xl={3} >
             <img src={tapIcon} width="65.998" />
 
-            <ServicesTitle>Full Project</ServicesTitle>
+            <ServicesTitle>Phase 1</ServicesTitle>
             <ServiceParagraph>
               In the initial phase we will reach out to better understand your
               vision and expectations. When we come out to assess your project
@@ -33,7 +33,7 @@ const Services = ({ lg, xl }) => {
           <ServiceItem item md={6} xl={3}>
             <img src={tapIcon} width="65.998"  />
 
-            <ServicesTitle>Remodeling</ServicesTitle>
+            <ServicesTitle>Phase 2</ServicesTitle>
             <ServiceParagraph>
               In this phase you’ll receive the estimate alongside an initial 3D
               rendering based on your vision - this way you can visualize what
@@ -44,7 +44,7 @@ const Services = ({ lg, xl }) => {
           <ServiceItem item md={6} xl={3} >
             <img src={tapIcon} width="65.998" />
 
-            <ServicesTitle>Design</ServicesTitle>
+            <ServicesTitle>Phase 3</ServicesTitle>
             <ServiceParagraph>
               This is the bureaucratic phase. In this phase we’ll agree and sign
               contractual terms and provide you with a selection sheet of all
@@ -57,7 +57,7 @@ const Services = ({ lg, xl }) => {
           <ServiceItem item md={6} xl={3} >
             <img src={tapIcon} width="65.998" />
 
-            <ServicesTitle>Another</ServicesTitle>
+            <ServicesTitle>Phase 4</ServicesTitle>
             <ServiceParagraph>
               In this phase the magic happens! Together with our team we will
               bring your project to life/make your remodeling wishes come to
