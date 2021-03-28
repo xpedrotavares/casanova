@@ -1,0 +1,85 @@
+/* Social Media */
+
+.div-social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 150px;
+    height: 100vh;
+
+}
+
+.div-social-media-follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* transition: 1s ease-in-out */
+}
+.div-social-media-follow img{
+    width:13.48px;
+    height:  82.29px;
+    margin-bottom: 15px;
+    /* transition: 1s ease-in-out */
+}
+.div-social-media-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-social-media-line img{
+    height: 174px;
+}
+.div-social-media-imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.facebook-img, .instagram-img, .houzz-img{
+    margin: 27px;
+}
+
+.facebook-img{
+    width:11px;
+    height: 21px;
+    
+}
+
+.instagram-img{
+    width: 21px;
+    height: 21px;
+}
+
+.houzz-img{
+    width: 14.95px;
+    height: 22.94px;
+    margin-bottom: 0;
+}
+.ou{
+    fill:black;
+    transition: 0.6s ease-in-out;
+}
+
+.white{
+    fill: white;
+}
+.ou1{
+    stroke:black;
+    transition: 0.6s ease-in-out;
+}
+
+.instagram-icon{
+    margin: 35px 0;
+}
+
+.line-social-media{
+    margin-top:20px;
+    margin-bottom: 41px;
+}

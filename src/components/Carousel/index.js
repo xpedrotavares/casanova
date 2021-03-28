@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import './style.css'
 
 
 import Slider from "react-slick";
@@ -23,14 +22,15 @@ import nextArrow from '../../images/nextArrow.png'
 
 function getWindowDimensions() {
   const { innerWidth: width } = window;
-  if(width > 768){
+  if(width > 1200){
     return 2
   } else {
     return 1
   }
 };
 
-
+// autoplay: true,
+// autoplaySpeed: 4000,
 
 const Carousel = () => {
 
@@ -39,8 +39,7 @@ const Carousel = () => {
 
     let settings = {
         dots: false,
-        autoplay: true,
-        autoplaySpeed: 4000,
+       
         cssEase: 'linear',
         infinite: true,
         speed: 500,

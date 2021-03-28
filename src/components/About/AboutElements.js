@@ -11,6 +11,9 @@ export const AboutContainer = styled.div`
   align-items: center;
   text-align: center;
 
+  @media screen and (max-width: 1200px) {
+    height: 190vh;
+  }
   @media screen and (max-width: 800px) {
     width: 100%;
     height: 250vh;
@@ -21,8 +24,6 @@ export const AboutContainer = styled.div`
     text-align: center;
   }
 
-  @media screen and (max-width: 1870px) {
-  }
 `;
 
 export const MainTitle = styled.h1`

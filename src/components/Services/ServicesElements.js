@@ -4,16 +4,20 @@ import Grid from "@material-ui/core/Grid"
 
 export const ServicesContainer = styled(Grid)`
 display: flex;
-height:60%;
+height:40%;
 max-width: 80%;
 border:1px solid blue;
 justify-content: space-around;
 margin-top: 120px;
 
 @media screen and (max-width:800px){
-  margin-top:20px;
+  margin-top:50px;
 }
 
+@media screen and (max-width:1200px){
+  height:60%;
+
+}
 
 
 `;

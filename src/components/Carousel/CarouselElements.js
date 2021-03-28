@@ -42,7 +42,7 @@ export const SlideImage = styled.img`
     /* margin-left: 40px!important; */
 
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     width: 74.999vw;
   }
 `
