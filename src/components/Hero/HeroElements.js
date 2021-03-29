@@ -19,7 +19,7 @@ export const HeroContainer = styled.div`
 
   /* object-fit:contain; */
   /* background-position-y:50px; */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     margin-top: 7.5vh;
     height: 92.5vh;
     img{

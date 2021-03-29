@@ -109,11 +109,12 @@ const Contact = () => {
               variant="outlined"
               />
           </div>
-          <div className="contact-div-button d-flex justify-content-left">
+          <div className="contact-div-button d-flex justify-content-left align-items-start">
   
           <Button className="contact__submit-button">Submit</Button>
           </div>
               </container>
+              <div>A A A</div>
         </Grid>
         <Grid className="contact__contacts d-flex justify-content-around " item>
             <div>

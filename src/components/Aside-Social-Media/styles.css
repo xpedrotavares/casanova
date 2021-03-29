@@ -83,3 +83,9 @@
     margin-top:20px;
     margin-bottom: 41px;
 }
+
+@media screen and (max-width:1200px){
+    .div-social-media{
+        display:none;
+    }
+}

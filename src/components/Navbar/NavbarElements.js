@@ -30,7 +30,7 @@ export const Nav = styled.nav`
 
 
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:1200px) {
         /* transition: 0.8s all ease; */
         background-color:#223240;
         height:7.5vh;
@@ -65,7 +65,7 @@ export const NavMenu = styled.ul`
     align-items: left;
     list-style: none;
     height:203.85px;
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1200px){
         display: none;
     }
     .text-color{
@@ -134,7 +134,7 @@ font-family: 'Poppins';
 export const MobileBurguerMenuIcon = styled.div`
     display: none;
 
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1200px){
         display:block;
         position: absolute;
         top:10px;
