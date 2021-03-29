@@ -171,7 +171,7 @@ font-size:21px;
 
 export const SocialMediaContainer = styled.div`
   display: none;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     width: 136px;
     display: flex;
     justify-content: space-between;

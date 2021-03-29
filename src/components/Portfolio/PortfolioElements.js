@@ -29,6 +29,7 @@ export const CarouselSection = styled.div`
 export const TestimonialsContainer = styled.div`
     /* border: 1px solid blue; */
      width:59.7vw;
+     height:500px;
      margin-top: 50px;
 
     @media screen and (max-width:768px){
@@ -105,7 +106,6 @@ export const ClientTestimonialTextContainer = styled.div`
 display:flex;
 flex-direction:column;
    align-items: flex-end;
-   
 
 p{
 font-family: 'Roboto';
