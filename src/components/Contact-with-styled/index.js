@@ -42,8 +42,7 @@ const Contact = () => {
             
             <ContactHeaderSection>
             <h1>Get in touch</h1>
-            <p className="constact__upper-text__first-p">Need help with your project?</p>
-            <p className="constact__upper-text__last-p">Let’s talk about it!</p>
+            <p >Need help with your project? <br />Let’s talk about it!</p>
             <div> </div>
             </ContactHeaderSection>
 
@@ -51,7 +50,6 @@ const Contact = () => {
                 <ContactFormItems item>
 
                 <TextField
-              className="single-line-inputs first-name-input"
               
               id="outlined-basic"
               label="What's your name?"
@@ -60,7 +58,6 @@ const Contact = () => {
               // helperText="Some validation error"
               />
             <TextField
-           className="single-line-inputs "
            id="outlined-select-currency"
            select
            label="What's the best way to contact you?"
@@ -79,7 +76,7 @@ const Contact = () => {
           <ContactFormItems item>
 
           <TextField
-              className="single-line-inputs email-input"
+          className="email-field"
               id="outlined-basic"
               label="What's your email?"
               variant="outlined"
@@ -94,7 +91,7 @@ const Contact = () => {
           </ContactFormItems>
           <ContactFormItemsMessage>
           <TextField
-              className="message-input"
+
               id="outlined-multiline-static"
               label="Message"
               multiline
