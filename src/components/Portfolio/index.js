@@ -12,23 +12,26 @@ import { PortfolioContainer,  TestimonialsContainer, TestimonialsTitleSection, T
 import Carousel from "../Carousel";
 
 import Star from '../../images/star.png'
+import Test from "../test/Test";
 
 
 const Portfolio = () => {
 const testimonialsQuotes =[
-    {
-      client: 'Pedro',
-      quote: 'We were beyond thrilled to see our vision come true! CasaNova was a delight to work with, through and through. From the initial contact with Jess and Chris, to seeing everything come together! They promised timely delivery, open communication, and amazing results, which is exactly what we got; all while answering all our million questions. Would definitely recommend CasaNova to anyone considering remodeling their kitchen or bathroom!'
+    { 
+      client: <p className='transition'>Pedro</p>, // em cada um desses colocar uma classe, comeca com tudo 100 e vai
+      quote: <p>We were beyond thrilled to see our vision come true! CasaNova was a delight to work with, through and through. From the initial contact with Jess and Chris, to seeing everything come together! They promised timely delivery, open communication, and amazing results, which is exactly what we got; all while answering all our million questions. Would definitely recommend CasaNova to anyone considering remodeling their kitchen or bathroom!</p>
     },
     {
-      client: 'Isadora',
-      quote: 'oiasjdoisajdsoidj'
+      client: <p>Isadora</p>,
+      quote: <p>'oiasjdoisajdsoidj'</p>
     },
     {
-      client: 'Valentina',
-      quote: 'oiasjdoisajdsoidj'
-    }
+      client: <p>Valentina</p>,
+      quote: <p>'oiasjdoisajdsoidj'</p>
+    },
+   
   ]
+  // console.log(testimonialsQuotes[0].client)
 
 const [currentQuote, setCurrentQuote] = useState(testimonialsQuotes[0])
 
@@ -37,7 +40,7 @@ const [active, setActive] = useState(0);
 useEffect(() => {
   const timerId = setInterval(
     () => setActive((i) => (i + 1) % testimonialsQuotes.length), 
-  3000
+  6000
   );
   return () => clearInterval(timerId);
   
@@ -74,9 +77,8 @@ Our knowledgeable and friendly team strives not only to exceed your expectations
             <StarImage src={Star}></StarImage>
           </TestimonialsStarSection>
           <ClientTestimonialTextContainer>
-          <p> {currentQuote.quote}
-          </p>
-          <p className="client-name"><span>{currentQuote.client}</span> Name</p>
+     <Test />
+          
           </ClientTestimonialTextContainer>
         </TestimonialsContainer>    
   

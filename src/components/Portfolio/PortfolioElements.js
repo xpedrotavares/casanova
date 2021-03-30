@@ -6,7 +6,7 @@ export const PortfolioContainer = styled.div`
      justify-content:center;
      align-items:center;
      width:100%;
-     height:130vh;
+     height:150vh;
      border: 1px solid red;
 
      @media screen and (max-width:768px){
@@ -102,12 +102,21 @@ export const StarImage = styled.img`
      }
 `
 
+
+
 export const ClientTestimonialTextContainer = styled.div`
 display:flex;
 flex-direction:column;
    align-items: flex-end;
+   .transition{
+     
+}
+@keyframes fadein {
 
+}
 p{
+
+ 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;

@@ -8,6 +8,7 @@ import Navbar from '../components/Navbar'
 import Portfolio from '../components/Portfolio';
 import Sidebar from '../components/Sidebar'
 import {HomeContainer} from "./HomeElements"
+import Test from '../components/test/Test';
 
 const Home = () => {
     const [ isOpen, setIsOpen ] = useState(false);
@@ -26,8 +27,10 @@ const Home = () => {
           <About />
           <Portfolio />
           <Contact />
+          {/* <Test /> */}
           {/* <Contact2 /> */}
         </HomeContainer>
+        
     )
 }
 
