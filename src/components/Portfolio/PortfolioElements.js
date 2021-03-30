@@ -7,7 +7,7 @@ export const PortfolioContainer = styled.div`
      align-items:center;
      width:100%;
      height:150vh;
-     border: 1px solid red;
+     /* border: 1px solid red; */
 
      @media screen and (max-width:768px){
           display:flex;
@@ -16,7 +16,7 @@ export const PortfolioContainer = styled.div`
      align-items:center;
      width:100%;
      height:140vh;
-     border: 1px solid red;
+     /* border: 1px solid red; */
      }
 `
 

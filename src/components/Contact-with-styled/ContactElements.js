@@ -9,7 +9,7 @@ export const ContactContainer = styled.div`
   align-items:center;
   justify-content:center;
   width: 100%;
-  height: 140vh;
+  height: 110vh;
   background-color: #223140;
 
   button{
@@ -128,4 +128,108 @@ export const ContactFormItemsMessage = styled(Grid)`
     }
     }
 `;
+
+
+export const SocialMediasContainer = styled(Grid)`
+/* border: 1px solid red; */
+height:50px;
+margin-top:20px;
+
+    .facebook-icon{
+        width:15px;
+        margin-right:15px;
+        margin-top:0;
+    }
+    .instagram-icon{
+        width:30px;
+        margin-top:0;
+        margin-bottom:0;
+        margin-left:15px;
+    }
+`
+
+
+export const StaticContactContainer = styled(Grid)`
+    display:flex;
+    color:white;
+    justify-content:center;
+    /* Phone */
+    margin-top:100px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+/* line-height: 19px; */
+
+/* White_CasaNova */
+color: #FFFFFF;
+
+
+
+    div{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:220px;
+        justify-content:top;
+        /* border: 1px solid red; */
+    }
+    section{
+        
+        display:flex;
+        justify-content:center!important;
+        align-items:baseline!important;
+        margin-bottom: 10px;
+        /* border: 1px solid blue; */
+    }
+    section p {
+        margin-bottom:0;
+    }
+
+    .phone-icon{
+        width:22px;
+        margin-right: 12px;
+    }
+    .pin-icon{
+        width:17px;
+        margin-right: 12px;
+    }
+    .letter-icon{
+        width:25px;
+        margin-right: 12px;
+    }
+    span{
+        display:none;
+    }
+    .static-contact-container-mobile {
+            display:none;
+        }
+
+    @media screen and (max-width:800px){
+        margin-top:20px;
+        .static-contact-container-mobile {
+            display:initial;
+        }
+        .static-contact-container-desktop {
+            display:none;
+        }
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        div{
+            /* border: 1px solid red; */
+            width:fit-content;
+            flex-direction: row;
+            br{
+                display:none;
+            }
+        }
+        div p{
+            margin-bottom:2px;
+        } 
+    }
+
+`
 

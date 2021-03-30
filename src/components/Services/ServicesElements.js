@@ -6,7 +6,7 @@ export const ServicesContainer = styled(Grid)`
 display: flex;
 height:40%;
 max-width: 80%;
-border:1px solid blue;
+/* border:1px solid blue; */
 justify-content: space-around;
 margin-top: 120px;
 

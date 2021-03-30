@@ -7,14 +7,14 @@ align-items:center;
 height:fit-content;
 /* overflow:hidden; */
 width:100%;
-border:1px solid red;
+/* border:1px solid red; */
 box-sizing:border-box;
 #slideshow { 
   /* margin: 50px auto;  */
   display:flex;
   flex-direction: column;
   align-items: flex-end;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative; 
   width: fit-content; 
   height: fit-content; 
@@ -32,7 +32,7 @@ box-sizing:border-box;
     text-align:right;
     width:100%;
     height:fit-content;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     box-sizing:border-box;
     margin:-10px;
   
