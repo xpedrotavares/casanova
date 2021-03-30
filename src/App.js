@@ -16,12 +16,10 @@ import theme from "./theme"
 function App() {
   // const classes = useStyles();
   return (
-    <ThemeProvider theme={theme}>
 
     <Router >
       <Home />
     </Router>
-    </ThemeProvider>
   );
 }
 

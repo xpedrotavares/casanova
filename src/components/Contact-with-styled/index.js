@@ -8,9 +8,18 @@ import { Button } from "react-bootstrap";
 
 import MenuItem from '@material-ui/core/MenuItem';
 
+
+import { makeStyles } from '@material-ui/core/styles'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { ContactContainer, ContactHeaderSection, ContactFormContainer, ContactFormItems, ContactFormItemsMessage } from './ContactElements'
+
+const useStyles = makeStyles({
+  root:{
+
+  }
+})
 
 const Contact = () => {
 
@@ -36,9 +45,10 @@ const Contact = () => {
   const handleChange = (event) => {
     setCcontactWays(event.target.value);
   }; 
+  const classes = useStyles();
 
     return (
-        <ContactContainer id='contact'>
+        <ContactContainer id='contact' className={classes.root}>
             
             <ContactHeaderSection>
             <h1>Get in touch</h1>
@@ -49,7 +59,7 @@ const Contact = () => {
             <ContactFormContainer container>
                 <ContactFormItems item>
 
-                <TextField
+                <TextField 
               
               id="outlined-basic"
               label="What's your name?"
@@ -57,14 +67,16 @@ const Contact = () => {
               // error
               // helperText="Some validation error"
               />
-            <TextField
+            <TextField className={classes.root}
            id="outlined-select-currency"
            select
            label="What's the best way to contact you?"
            value={contactWays}
            onChange={handleChange}
-           helperText="Select the best way to contact you"
+           helperText="*Select the best way to contact you"
            variant="outlined"
+           color="primary" 
+           text="primary"
            >
           {contactWaysArr.map((option) => (
               <MenuItem key={option.value} value={option.value}>
@@ -80,6 +92,7 @@ const Contact = () => {
               id="outlined-basic"
               label="What's your email?"
               variant="outlined"
+              text="primary"
               />
             {/* <TextField
               className="single-line-inputs phone-input"
@@ -93,11 +106,14 @@ const Contact = () => {
           <TextField
 
               id="outlined-multiline-static"
-              label="Message"
+              label="Share your project with us:"
+              helperText="*If possible, include a rough size, location and time frame"
               multiline
               rows={7}
               //   defaultValue="Default Value"
               variant="outlined"
+              color="primary"
+              text="primary"
               />
           </ContactFormItemsMessage>
           <Button>Submit</Button>

@@ -6,6 +6,9 @@ const theme = createMuiTheme({
         main: "#EC8F6A",
         contrastText: "#fff"
       },
+      text:{
+        primary: "#fff"
+      }
     },
     breakpoints: {
       values: {
@@ -15,7 +18,8 @@ const theme = createMuiTheme({
         lg: 1410,
         xl: 1900,
       }
-    }
+    },
+  
   
   })
 

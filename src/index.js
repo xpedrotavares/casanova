@@ -15,8 +15,12 @@ import theme from './theme'
 
 ReactDOM.render(
   <React.StrictMode>
+        <ThemeProvider theme={theme}>
+
     
     <App />
+    </ThemeProvider>
+
  
   </React.StrictMode>,
   document.getElementById('root')

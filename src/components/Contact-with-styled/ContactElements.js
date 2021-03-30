@@ -82,7 +82,12 @@ export const ContactFormContainer = styled(Grid)`
     align-items:center;
     flex-direction: column;
     width: 700px;
-
+    .MuiFormLabel-root{
+        color:white;
+    }
+    .MuiFormHelperText-root {
+        color:#cacaca8a;
+    }
 `
 
 export const ContactFormItems = styled(Grid)`
