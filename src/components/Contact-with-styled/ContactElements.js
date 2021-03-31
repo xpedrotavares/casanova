@@ -23,11 +23,11 @@ flex-wrap:wrap;
   }
 
   @media screen and (max-width:800px){
-    height: 140vh;
+    height: fit-content;
   }
 
   @media screen and (max-width:375px){
-      height:130vh;
+      height:fit-content;
   }
 `;
 
