@@ -24,10 +24,13 @@ flex-wrap:wrap;
 
   @media screen and (max-width:800px){
     height: fit-content;
+    margin-top:50px;
   }
 
   @media screen and (max-width:375px){
       height:fit-content;
+  
+
   }
 `;
 
@@ -64,6 +67,7 @@ margin-bottom:60px;
     @media screen and (max-width:800px){
         width:340px;
         margin-bottom: 20px;
+        margin-top:50px;
         p{
             margin-bottom:10px
         }

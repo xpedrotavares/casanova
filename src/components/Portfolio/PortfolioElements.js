@@ -15,7 +15,8 @@ export const PortfolioContainer = styled.div`
      justify-content:center;
      align-items:center;
      width:100%;
-     height:140vh;
+     height:fit-content;
+     margin-top:50px;
      /* border: 1px solid red; */
      }
 `
@@ -29,7 +30,7 @@ export const CarouselSection = styled.div`
 export const TestimonialsContainer = styled.div`
     /* border: 1px solid blue; */
      width:59.7vw;
-     height:500px;
+     height:340px;
      margin-top: 50px;
 
     @media screen and (max-width:768px){

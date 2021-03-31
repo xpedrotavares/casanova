@@ -10,19 +10,20 @@ export const AboutContainer = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
   @media screen and (max-width: 1200px) {
     height: 190vh;
   }
   @media screen and (max-width: 800px) {
     width: 100%;
-    height: 250vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top:50px;
   }
 
 `;
