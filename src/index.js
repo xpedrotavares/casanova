@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles'
 import App from './App';
 import theme from './theme'
+
+import './styles.css'
 // const theme = createMuiTheme({
 //   palette:{
 //     primary:{

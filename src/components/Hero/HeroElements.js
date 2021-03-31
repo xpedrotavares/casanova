@@ -8,53 +8,46 @@ export const HeroContainer = styled.div`
   background-image: url(${HeroBg});
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: fit-content;
 
   background-repeat: no-repeat;
-    img{
-        position: absolute;
-        width:232.17px;
-        top:70px;
-    }
+
 
   /* object-fit:contain; */
   /* background-position-y:50px; */
   @media screen and (max-width: 1200px) {
     margin-top: 7.5vh;
     height: 92.5vh;
-    img{
-        display:none;
+    img {
+      display: none;
     }
-   
-    .location{
-        display:none;
+
+    .location {
+      display: none;
     }
   }
-  .location{
-      /* Fairfax, VA */
+  .location {
+    /* Fairfax, VA */
 
+    position: absolute;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    left: 2vw;
+    bottom: 100px;
+    letter-spacing: 0.03em;
 
-position: absolute;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
-left:2vw;
-bottom: 100px;
-letter-spacing: 0.03em;
+    color: #ffffff;
 
-color: #FFFFFF;
+    transform: rotate(-90deg);
 
-transform: rotate(-90deg);
-
-span{
-    font-weight: 800;
-}
-
+    span {
+      font-weight: 800;
+    }
   }
-
 `;
 
 export const HeroBgMask = styled.div`
@@ -72,6 +65,24 @@ export const HeroBgMask = styled.div`
   }
 `;
 
+export const HeroLogoContainer = styled.div`
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:30vh;
+  
+  border: 1px solid red;
+  
+  img {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 232.17px;
+    /* top:70px; */
+  }
+
+`
+
 export const HeroSloganContainer = styled.div`
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -83,6 +94,7 @@ export const HeroSloganContainer = styled.div`
   letter-spacing: 0.08em;
 
   color: #ec8f6a;
+  position: relative;
 
   @media screen and (max-width: 768px) {
     margin-top: 45px;
@@ -94,7 +106,17 @@ export const HeroSloganContainer = styled.div`
   }
 `;
 
-export const HeroArticle = styled.article``;
+export const HeroArticle = styled.article`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid red;
+  
+  height: 70vh;
+  position: relative;
+`;
 
 export const HeroTitle = styled.h1`
   font-family: "Poppins", sans-serif;
@@ -151,21 +173,21 @@ export const HeroSubtitle = styled.h3`
 
 export const CalltoActionButton = styled(Button)`
   font-family: "Poppins";
-font-size:21px;
+  font-size: 21px;
   width: 309px;
-  height:52px;
+  height: 52px;
   text-transform: none;
 
-@media screen and (max-width:768px){
-    font-size:14px;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
     width: 220px;
-    height:36px;
-}
+    height: 36px;
+  }
 
-@media screen and (max-width: 320px) {
+  @media screen and (max-width: 320px) {
     font-size: 13px;
     width: 210px;
-    height:36px;
+    height: 36px;
   }
 `;
 
@@ -191,7 +213,7 @@ export const HeroLocation = styled.div`
     line-height: 12px;
     letter-spacing: -0.015em;
     margin-top: 57px;
-    margin-bottom:70px;
+    margin-bottom: 70px;
     color: #ffffff;
     span {
       font-weight: 400;
@@ -218,12 +240,13 @@ export const HeroLocation = styled.div`
 `;
 
 export const HeroArrow = styled.div`
-    position:absolute;
-  margin-top: 30px;
-  bottom: 60px;
-
-  @media screen and (max-width:768px){
-      position:none;
-    
+display:flex;
+justify-content:center;
+align-items:flex-end;
+  position: relative;
+border: 1px solid blue;
+height:30%;
+  @media screen and (max-width: 800px) {
+    top: 0;
   }
 `;

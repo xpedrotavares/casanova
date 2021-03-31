@@ -10,6 +10,8 @@ export const AboutContainer = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  position:static;
+
   /* border: 1px solid red; */
 
   @media screen and (max-width: 1200px) {
@@ -29,6 +31,7 @@ export const AboutContainer = styled.div`
 `;
 
 export const MainTitle = styled.h1`
+position:static;
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;

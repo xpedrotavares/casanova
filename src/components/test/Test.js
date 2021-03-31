@@ -40,7 +40,7 @@ const Test = () => {
             questions. Would definitely recommend CasaNova to anyone considering
             remodeling their kitchen or bathroom!
           </p>
-          <p>Simone N.</p>
+          <p className="quote-author">Simone N.</p>
         </div>
         <div>
         <TestimonialsStarSection>
@@ -61,7 +61,7 @@ const Test = () => {
             them. I would recommend CasaNova to anyone who wants a professional,
             quick and trustworthy team working on their homes!
           </p>
-          <p>Elizabeth L.</p>
+          <p className='quote-author'>Elizabeth L.</p>
         </div>
       </div>
     </SlideShowContainer>

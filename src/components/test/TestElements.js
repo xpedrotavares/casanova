@@ -9,6 +9,9 @@ height:fit-content;
 width:100%;
 /* border:1px solid red; */
 box-sizing:border-box;
+.quote-author{
+    font-weight: 500;
+}
 #slideshow { 
   /* margin: 50px auto;  */
   display:flex;
