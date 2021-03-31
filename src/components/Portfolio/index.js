@@ -70,12 +70,12 @@ Our knowledgeable and friendly team strives not only to exceed your expectations
             Testimonials
           </TestimonialsTitle>
           </TestimonialsTitleSection>
-          <TestimonialsStarSection>
+          {/* <TestimonialsStarSection>
             <StarImage src={Star}></StarImage>
             <StarImage src={Star}></StarImage>
             <StarImage src={Star}></StarImage>
             <StarImage src={Star}></StarImage>
-          </TestimonialsStarSection>
+          </TestimonialsStarSection> */}
           <ClientTestimonialTextContainer>
      <Test />
           

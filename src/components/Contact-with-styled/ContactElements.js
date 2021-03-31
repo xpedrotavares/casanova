@@ -9,9 +9,9 @@ export const ContactContainer = styled.div`
   align-items:center;
   justify-content:center;
   width: 100%;
-  height: 110vh;
+  height: 140vh;
   background-color: #223140;
-
+flex-wrap:wrap;
   button{
 
     width: 340px;
@@ -23,7 +23,7 @@ export const ContactContainer = styled.div`
   }
 
   @media screen and (max-width:800px){
-    height: 120vh;
+    height: 140vh;
   }
 
   @media screen and (max-width:375px){
@@ -155,7 +155,7 @@ export const StaticContactContainer = styled(Grid)`
     justify-content:center;
     /* Phone */
     margin-top:100px;
-
+  
 
 font-family: 'Roboto';
 font-style: normal;

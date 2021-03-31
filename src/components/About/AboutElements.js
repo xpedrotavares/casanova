@@ -4,12 +4,13 @@ import Grid from "@material-ui/core/Grid";
 
 export const AboutContainer = styled.div`
   width: 100%;
-  height: 160vh;
+  height: 140vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: 1px solid red;
 
   @media screen and (max-width: 1200px) {
     height: 190vh;

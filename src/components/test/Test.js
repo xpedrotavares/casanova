@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import $ from "jquery";
 
-import { SlideShowContainer } from "./TestElements";
-
+import { SlideShowContainer, StarImage, TestimonialsStarSection } from "./TestElements";
+import Star from '../../images/star.png'
 
 $("#slideshow > div:gt(0)").hide();
 
@@ -20,8 +20,17 @@ const Test = () => {
 
   return (
     <SlideShowContainer>
+
       <div id="slideshow">
+ 
         <div>
+        <TestimonialsStarSection>
+
+<StarImage src={Star}></StarImage>
+<StarImage src={Star}></StarImage>
+<StarImage src={Star}></StarImage>
+<StarImage src={Star}></StarImage>
+</TestimonialsStarSection>
           <p>
             We were beyond thrilled to see our vision come true! CasaNova was a
             delight to work with, through and through. From the initial contact
@@ -34,6 +43,13 @@ const Test = () => {
           <p>Simone N.</p>
         </div>
         <div>
+        <TestimonialsStarSection>
+
+<StarImage src={Star}></StarImage>
+<StarImage src={Star}></StarImage>
+<StarImage src={Star}></StarImage>
+<StarImage src={Star}></StarImage>
+</TestimonialsStarSection>
           <p>
             What an absolute delight it was to work with CasaNova. I have gone
             through renovations before and I know how stressful it can be - so
