@@ -24,9 +24,9 @@ const Home = () => {
           <Navbar toggle={toggle} />
             <AsideSocialMedia />
           <Hero />
-          <About />
+           <About />
           <Portfolio />
-          <Contact />
+          <Contact /> 
           {/* <Test /> */}
           {/* <Contact2 /> */}
         </HomeContainer>

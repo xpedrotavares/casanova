@@ -11,6 +11,7 @@ export const HeroContainer = styled.div`
   height: fit-content;
 
   background-repeat: no-repeat;
+  min-height: 525px!important;
 
 
   /* object-fit:contain; */
@@ -22,35 +23,12 @@ export const HeroContainer = styled.div`
       display: none;
     }
 
-    .location {
-      display: none;
-    }
-  }
-  .location {
-    /* Fairfax, VA */
-
-    position: absolute;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
-    left: 2vw;
-    bottom: 100px;
-    letter-spacing: 0.03em;
-
-    color: #ffffff;
-
-    transform: rotate(-90deg);
-
-    span {
-      font-weight: 800;
-    }
+  
   }
 `;
 
 export const HeroBgMask = styled.div`
+  min-height: 525px!important;
   width: 100%;
   height: 100%;
   background: rgba(34, 50, 64, 0.9);
@@ -80,6 +58,9 @@ export const HeroLogoContainer = styled.div`
     width: 232.17px;
     /* top:70px; */
   }
+  @media screen and (max-width:1200px){
+    display:none;
+  }
 
 `
 
@@ -107,6 +88,7 @@ export const HeroSloganContainer = styled.div`
 `;
 
 export const HeroArticle = styled.article`
+min-height: 525px!important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,6 +98,10 @@ export const HeroArticle = styled.article`
   
   height: 70vh;
   position: relative;
+
+  @media screen and (max-width:1200px){
+    height:90vh;
+  }
 `;
 
 export const HeroTitle = styled.h1`
@@ -201,27 +187,44 @@ export const SocialMediaContainer = styled.div`
   }
 `;
 
-export const HeroLocation = styled.div`
-  display: none;
-
-  @media screen and (max-width: 768px) {
-    display: inherit;
+export const HeroLocationMobile = styled.div`
+   @media screen and (min-width:1200px){
+     display:none;
+   }
+@media screen and (max-width:1200px){
+  display: relative;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 200;
     font-size: 14px;
     line-height: 12px;
     letter-spacing: -0.015em;
-    margin-top: 57px;
-    margin-bottom: 70px;
+    margin-top:8%;
+  
+    color: #ffffff;
+    span {
+      font-weight: 400;
+}
+}
+/* 
+  @media screen and (max-width: 768px) {
+    display: relative;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: -0.015em;
+    margin-top: 5%;
+    margin-bottom: 5%;
     color: #ffffff;
     span {
       font-weight: 400;
     }
-  }
+  } */
 
   @media screen and (max-width: 320px) {
-    display: inherit;
+    display: relative;
     margin-top: 35px;
 
     font-family: "Roboto";
@@ -246,7 +249,40 @@ align-items:flex-end;
   position: relative;
 border: 1px solid blue;
 height:30%;
+
+@media screen and (max-width:1200px){
+  height:15%;
+}
   @media screen and (max-width: 800px) {
     top: 0;
   }
 `;
+
+
+export const HeroLocationDesktop = styled.div`
+/* float:left; */
+right:45%;
+border: 1px solid red;
+ position: relative;
+ font-family: "Poppins";
+ font-style: normal;
+ font-weight: 300;
+ font-size: 18px;
+ line-height: 27px;
+ /* identical to box height */
+ 
+ bottom: 100px;
+ letter-spacing: 0.03em;
+
+ color: #ffffff;
+
+ transform: rotate(-90deg);
+
+ span {
+   font-weight: 800;
+}
+@media screen and (max-width:1200px){
+  display:none;
+}
+`;
+

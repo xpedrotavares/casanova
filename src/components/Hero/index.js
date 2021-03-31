@@ -9,7 +9,8 @@ import {
   HeroSubtitle,
   CalltoActionButton,
   SocialMediaContainer,
-  HeroLocation,
+  HeroLocationMobile,
+  HeroLocationDesktop,
   HeroArrow,
   HeroLogoContainer
 } from "./HeroElements";
@@ -107,6 +108,11 @@ const Hero = () => {
             />
           </svg>
         </SocialMediaContainer>
+        <HeroLocationMobile>
+          <p className="location-mobile">
+            <span>Fairfax,</span> VA
+          </p>
+        </HeroLocationMobile>
         <HeroArrow>
           <svg
             width="16"
@@ -122,15 +128,13 @@ const Hero = () => {
           </svg>
         </HeroArrow>
         </HeroArticle>
-        <HeroLocation>
-          <p className="locations-desktop">
-            <span>Fairfax,</span> VA
-          </p>
-        </HeroLocation>
+        <HeroLocationDesktop>
 
-        <p className="location">
+        <p>
           <span>Fairfax,</span> VA
         </p>
+        </HeroLocationDesktop>
+
       </HeroBgMask>
     </HeroContainer>
   );
