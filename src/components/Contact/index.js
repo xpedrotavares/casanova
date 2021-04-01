@@ -11,7 +11,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { ContactContainer } from './ContactElements'
-import './style.css'
+// import './style.css'
 
 const Contact = () => {
 

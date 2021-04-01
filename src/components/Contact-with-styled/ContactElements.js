@@ -13,6 +13,10 @@ export const ContactContainer = styled.div`
   height: 140vh;
   background-color: #223140;
 flex-wrap:wrap;
+.MuiOutlinedInput-notchedOutline {
+    border-color: #768089!important;
+    
+}
 
   button{
 
