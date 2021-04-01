@@ -40,14 +40,13 @@ export const Nav = styled.nav`
     }
   }
 
-  /* @media screen and (max-width: 320px) {
+   @media screen and (max-width: 320px) {
     .logo-nav-mobile {
-      display: flex;
-      width: 110px;
-      align-self: center;
-      margin-top: 11px;
+   
+      width: 115px;
+     
     }
-  } */
+  } 
 `;
 
 export const NavMenu = styled.ul`
@@ -126,6 +125,11 @@ export const MobileBurguerMenuIcon = styled.div`
     cursor: pointer;
     img {
       width: 26px;
+    }
+    @media screen and (max-width:380px){
+      img {
+      width: 20px;
+    }
     }
   }
 
