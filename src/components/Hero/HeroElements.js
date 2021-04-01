@@ -262,7 +262,7 @@ height:30%;
 export const HeroLocationDesktop = styled.div`
 /* float:left; */
 right:45%;
-border: 1px solid red;
+/* border: 1px solid red; */
  position: relative;
  font-family: "Poppins";
  font-style: normal;

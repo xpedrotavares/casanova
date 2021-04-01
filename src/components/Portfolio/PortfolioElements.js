@@ -6,7 +6,8 @@ export const PortfolioContainer = styled.div`
      justify-content:center;
      align-items:center;
      width:100%;
-     height:150vh;
+     height:fit-content;
+     margin-top:50px;
      /* border: 1px solid red; */
 
      @media screen and (max-width:768px){
@@ -16,7 +17,6 @@ export const PortfolioContainer = styled.div`
      align-items:center;
      width:100%;
      height:fit-content;
-     margin-top:50px;
      /* border: 1px solid red; */
      }
 `
@@ -28,10 +28,12 @@ export const CarouselSection = styled.div`
 `
 
 export const TestimonialsContainer = styled.div`
-    /* border: 1px solid blue; */
+    /* border: 6px solid yellow;  */
      width:59.7vw;
-     height:340px;
+     min-height:397px;
+     max-height:398px;
      margin-top: 50px;
+     overflow:hidden;
 
     @media screen and (max-width:768px){
 
@@ -129,6 +131,10 @@ letter-spacing: -0.015em;
 width: 630px;
 color: #828282;
 margin-bottom:0;
+/* border: 1px solid blue; */
+}
+.costumer-quote{
+     /* min-height:243px; */
 
 }
 

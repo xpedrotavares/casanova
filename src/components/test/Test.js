@@ -50,7 +50,7 @@ const Test = () => {
 <StarImage src={Star}></StarImage>
 <StarImage src={Star}></StarImage>
 </TestimonialsStarSection>
-          <p>
+          <p className="costumer-quote">
             What an absolute delight it was to work with CasaNova. I have gone
             through renovations before and I know how stressful it can be - so
             that’s what I was expecting, but boy was I surprised! CasaNova made
