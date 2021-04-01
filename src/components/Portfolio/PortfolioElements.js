@@ -28,7 +28,7 @@ export const CarouselSection = styled.div`
 `
 
 export const TestimonialsContainer = styled.div`
-    /* border: 6px solid yellow;  */
+     /* border: 6px solid yellow;   */
      width:59.7vw;
      min-height:397px;
      max-height:398px;
@@ -111,12 +111,12 @@ export const ClientTestimonialTextContainer = styled.div`
 display:flex;
 flex-direction:column;
    align-items: flex-end;
-   .transition{
+   /* .transition{
      
 }
 @keyframes fadein {
 
-}
+} */
 p{
 
  
@@ -132,6 +132,7 @@ width: 630px;
 color: #828282;
 margin-bottom:0;
 /* border: 1px solid blue; */
+
 }
 .costumer-quote{
      /* min-height:243px; */
@@ -148,7 +149,13 @@ span{
 
 
 
+@media screen and (max-width:1730px) and (min-width:1200px){
 
+p{
+     width:700px!important;
+}
+
+}
 
    @media screen and (max-width:768px){
 

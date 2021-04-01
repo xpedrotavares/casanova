@@ -12,7 +12,7 @@ const AsideSocialMedia = () => {
       setFollow(false);
     }
   };
-  console.log(window.scrollY);
+  // console.log(window.scrollY);
 
   window.addEventListener("scroll", changeTextColor);
 

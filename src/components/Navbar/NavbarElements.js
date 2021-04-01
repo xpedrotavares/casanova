@@ -15,7 +15,7 @@ export const Nav = styled.nav`
   position: fixed;
   left: 5vw;
   top: 80px;
-  z-index: 5000;
+  z-index: 5;
   /* border:1px solid red; */
 
   .logo-nav-mobile {
@@ -57,8 +57,10 @@ export const NavMenu = styled.ul`
   align-items: left;
   list-style: none;
   height: 203.85px;
-  width:101%;
-/* border:1px solid red; */
+  width:160px;
+  left:-10px;
+border:1px solid red;
+z-index:1000;
   @media screen and (max-width: 1200px) {
     display: none;
   }

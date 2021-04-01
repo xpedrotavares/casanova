@@ -10,9 +10,11 @@ export const ContactContainer = styled.div`
   align-items:center;
   justify-content:center;
   width: 100%;
-  height: 140vh;
+  height: fit-content;
   background-color: #223140;
-flex-wrap:wrap;
+  z-index:100;
+  
+
 .MuiOutlinedInput-notchedOutline {
     border-color: #768089!important;
     
@@ -26,18 +28,27 @@ flex-wrap:wrap;
         margin-top: 30px;
         border:0!important;
         border-radius: 5px!important;
+        align-self:start;
   }
 
   @media screen and (max-width:800px){
+    flex-wrap:wrap;
     height: fit-content;
     margin-top:50px;
+    button{
+        align-self:center;
+    }
   }
 
   @media screen and (max-width:375px){
+    flex-wrap:wrap;
       height:fit-content;
       button{
 
 width: 300px;
+height:40px;
+align-self:center;
+
    
 }
 
@@ -48,6 +59,7 @@ export const ContactHeaderSection = styled.div`
 width:700px;
 /* border: 1px solid red; */
 margin-bottom:60px;
+margin-top:50px;
 
     h1, p{
         font-family: 'Poppins'
@@ -105,16 +117,19 @@ margin-bottom:60px;
 
 export const ContactFormContainer = styled(Grid)`
     display: flex;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     justify-content:center;
     align-items:center;
     flex-direction: column;
-    width: 700px;
+    width: 700px!important;
     .MuiFormLabel-root{
         color:white;
     }
     .MuiFormHelperText-root {
         color:#cacaca8a;
+    }
+    @media screen and (max-width:1200px){
+        width: fit-content!important;
     }
 
 `

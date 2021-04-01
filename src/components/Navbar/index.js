@@ -22,7 +22,7 @@ console.log(setBrowserHeight());
 const Navbar = ( { toggle } ) => {
   const [nav, setNav] = useState(false);
   const changeTextColor = () => {
-      if(window.scrollY >= 800 &&  window.scrollY < 3600 && window.innerHeight > 700){
+      if(window.scrollY >= 800 &&  window.scrollY < 3200 && window.innerHeight > 700){
           setNav(true);
       } else {
         setNav(false);
