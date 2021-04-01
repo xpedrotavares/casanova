@@ -12,7 +12,7 @@ export const AboutContainer = styled.div`
   text-align: center;
   position:static;
 
-  /* border: 1px solid red; */
+  border: 1px solid red;
 
   @media screen and (max-width: 1200px) {
     height: 190vh;
@@ -103,6 +103,9 @@ export const MainParagraph = styled.p`
       display: inherit;
     }
     color: #727272;
+  }
+  @media screen and (max-width: 320px){
+    width:280px;
   }
 `;
 

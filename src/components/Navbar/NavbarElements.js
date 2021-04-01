@@ -53,9 +53,12 @@ export const NavMenu = styled.ul`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  position:absolute;
   align-items: left;
   list-style: none;
   height: 203.85px;
+  width:101%;
+border:1px solid red;
   @media screen and (max-width: 1200px) {
     display: none;
   }

@@ -22,7 +22,7 @@ import { makeStyles } from '@material-ui/core/styles'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import { ContactContainer, ContactHeaderSection, ContactFormContainer, ContactFormItems, ContactFormItemsMessage, SocialMediasContainer, StaticContactContainer } from './ContactElements'
+import { ContactContainer, ContactHeaderSection, ContactFormContainer, ContactFormItems, ContactFormItemsMessage, SocialMediasContainer, StaticContactContainer, SelectContactWayContainer } from './ContactElements'
 
 const useStyles = makeStyles({
   root:{
@@ -76,7 +76,8 @@ const Contact = () => {
               // error
               // helperText="Some validation error"
               />
-            <TextField className={classes.root}
+            <TextField className={classes.root}  
+           
            id="outlined-select-currency"
            select
            label="What's the best way to contact you?"
@@ -88,9 +89,9 @@ const Contact = () => {
            text="primary"
            >
           {contactWaysArr.map((option) => (
-              <MenuItem key={option.value} value={option.value}>
+              <SelectContactWayContainer key={option.value} value={option.value}>
               {option.label}
-            </MenuItem>
+            </SelectContactWayContainer>
           ))}
         </TextField>
           </ContactFormItems>

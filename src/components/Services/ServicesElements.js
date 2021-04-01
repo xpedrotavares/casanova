@@ -28,6 +28,7 @@ export const ServiceItem = styled(Grid)`
 text-align:left;
 padding: 0 40px;
 height:fit-content;
+margin-bottom:30px!important;
 
 @media screen and (max-width:1900px){
     padding:0 70px;

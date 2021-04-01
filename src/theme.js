@@ -1,6 +1,9 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 
 const theme = createMuiTheme({
+  "&MuiMenu-list":{
+      backgroundColor: "red"
+  },
     palette:{
       primary:{
         main: "#EC8F6A",
@@ -9,6 +12,7 @@ const theme = createMuiTheme({
       text:{
         primary: "#fff"
       }
+      
     },
     breakpoints: {
       values: {

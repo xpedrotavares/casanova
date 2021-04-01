@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
+import MenuItem from '@material-ui/core/MenuItem';
 
 export const ContactContainer = styled.div`
   display: flex;
@@ -12,6 +13,7 @@ export const ContactContainer = styled.div`
   height: 140vh;
   background-color: #223140;
 flex-wrap:wrap;
+
   button{
 
     width: 340px;
@@ -29,7 +31,11 @@ flex-wrap:wrap;
 
   @media screen and (max-width:375px){
       height:fit-content;
-  
+      button{
+
+width: 300px;
+   
+}
 
   }
 `;
@@ -76,6 +82,20 @@ margin-bottom:60px;
         }
 
     }
+
+    @media screen and (max-width:320px){
+        width:300px;
+        margin-bottom: 20px;
+        margin-top:50px;
+        p{
+            font-size:19px;
+            margin-bottom:10px
+        }
+        div{
+            margin-bottom:0;
+        }
+
+    }
     
 `;
 
@@ -92,21 +112,40 @@ export const ContactFormContainer = styled(Grid)`
     .MuiFormHelperText-root {
         color:#cacaca8a;
     }
+
 `
 
 export const ContactFormItems = styled(Grid)`
     /* border:1px solid white; */
+
+ 
     width:700px;
     display:flex;
     justify-content:space-between;
     /* align-items:center; */
+    .MuiOutlinedInput-input {
+    height: 52px;
+    padding: 18.5px 14px;
+}
     .MuiFormControl-root {
         margin-top:20px;
     width: 340px;    
     }
 
+
     @media screen and (max-width:800px){
         width: 340px;
+        flex-wrap:wrap;
+        .MuiFormControl-root {
+        margin-top:30px;
+    }
+    .email-field{
+        margin-top:15px;
+        
+    }
+    }
+    @media screen and (max-width:320px){
+        width: 300px;
         flex-wrap:wrap;
         .MuiFormControl-root {
         margin-top:30px;
@@ -121,13 +160,23 @@ export const ContactFormItems = styled(Grid)`
 export const ContactFormItemsMessage = styled(Grid)`
     margin-top:40px;
     #outlined-multiline-static{
+
         width:670px!important;
+        height: 200px;
        
     }
     @media screen and (max-width:800px){
         margin-top: 30px;
         #outlined-multiline-static{
         width:312px!important;
+       
+    }
+    }
+    @media screen and (max-width:320px){
+        margin-top: 30px;
+        width:300px!important;
+        #outlined-multiline-static{
+        width:112px!important;
        
     }
     }
@@ -234,6 +283,11 @@ color: #FFFFFF;
             margin-bottom:2px;
         } 
     }
+
+`
+
+export const SelectContactWayContainer = styled(MenuItem)`
+    background-color:#223140!important;
 
 `
 
