@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Nav, NavMenu, NavItem, NavLinks, MobileBurguerMenuIcon } from "./NavbarElements";
+import { Nav, NavMenu, NavItem, NavLinks, MobileBurguerMenuIcon, LogoContainer } from "./NavbarElements";
 
 import { useLocation } from 'react-router-dom'
 
@@ -35,10 +35,13 @@ const Navbar = ( { toggle } ) => {
   return (
     <>
       <Nav>
+        <LogoContainer>
+
         <img className="logo-nav-mobile" src={LogoNavMobile} />
+        </LogoContainer>
         <MobileBurguerMenuIcon onClick={toggle}>
-     
           <img src={BurguerMenuIcon} />
+     
         </MobileBurguerMenuIcon>
         <NavMenu>
           <NavItem>

@@ -49,7 +49,7 @@ export const HeroLogoContainer = styled.div`
   align-items:center;
   height:30vh;
   
-  border: 1px solid red;
+  /* border: 1px solid red; */
   
   img {
     position: relative;
@@ -94,7 +94,7 @@ min-height: 525px!important;
   justify-content: center;
   align-items: center;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
   
   height: 70vh;
   position: relative;
@@ -247,7 +247,7 @@ display:flex;
 justify-content:center;
 align-items:flex-end;
   position: relative;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 height:30%;
 
 @media screen and (max-width:1200px){

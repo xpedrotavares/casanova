@@ -7,7 +7,7 @@
     align-items: center;
     position: fixed;
     right: 150px;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -19,8 +19,9 @@
     /* transition: 1s ease-in-out */
 }
 .div-social-media-follow img{
-    width:13.48px;
-    height:  82.29px;
+   min-width:13.48px;
+    min-height:  82.29px;
+    
     margin-bottom: 15px;
     /* transition: 1s ease-in-out */
 }
@@ -32,7 +33,7 @@
 }
 
 .div-social-media-line img{
-    height: 174px;
+    /* min-height: 174px; */
 }
 .div-social-media-imgs{
     display: flex;
@@ -47,19 +48,20 @@
 }
 
 .facebook-img{
-    width:11px;
-    height: 21px;
+   min-width:11px;
+    min-height: 21px;
     
 }
 
 .instagram-img{
-    width: 21px;
-    height: 21px;
+   min-width: 21px;
+    min-height: 21px;
 }
 
 .houzz-img{
-    width: 14.95px;
-    height: 22.94px;
+    display:none;
+   min-width: 14.95px;
+    min-height: 22.94px;
     margin-bottom: 0;
 }
 .ou{
