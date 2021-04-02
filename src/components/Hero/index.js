@@ -56,7 +56,7 @@ const Hero = () => {
             excited to get to know you and your project!
           </HeroSubtitle>
 
-          <Link activeClass="active" to="test1" spy={true} smooth={true} offset={0} duration={600}>
+          <Link activeClass="active" to="test1" spy={true} smooth={true} offset={-10} duration={600}>
           <CalltoActionButton
           className="btn"
             variant="contained"

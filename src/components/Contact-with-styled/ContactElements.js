@@ -117,7 +117,7 @@ margin-top:50px;
 
 export const ContactFormContainer = styled(Grid)`
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content:center;
     align-items:center;
     flex-direction: column;

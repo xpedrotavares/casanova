@@ -45,16 +45,16 @@ const Navbar = ( { toggle } ) => {
         </MobileBurguerMenuIcon>
         <NavMenu>
           <NavItem>
-            <NavLinks className={nav ? 'text-color text-color-navlink' : 'text-color'} smooth={true} duration={600} offset={0} spy={true}  to='home'>Home.</NavLinks>
+            <NavLinks className={nav ? 'text-color text-color-navlink' : 'text-color'} smooth={true} duration={600} spy={true} exact="true" to='home'>Home.</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks className={nav ? 'text-color text-color-navlink' : 'text-color'} smooth={true} duration={600} offset={0} spy={true}  to='about'>About us.</NavLinks>
+            <NavLinks className={nav ? 'text-color text-color-navlink' : 'text-color'} smooth={true} duration={600} spy={true} exact="true" to='about'>About us.</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks className={nav ? 'text-color text-color-navlink' : 'text-color'} smooth={true} duration={600} offset={20} spy={true}  to='portfolio'>Portfolio.</NavLinks>
+            <NavLinks className={nav ? 'text-color text-color-navlink' : 'text-color'} smooth={true} duration={600} spy={true} exact="true" to='portfolio'>Portfolio.</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks className={nav ? 'text-color text-color-navlink' : 'text-color'} smooth={true} duration={600} offset={0} spy={true} to='contact' >Contact.</NavLinks>
+            <NavLinks className={nav ? 'text-color text-color-navlink' : 'text-color'} smooth={true} duration={600} spy={true} exact="true"to='contact' >Contact.</NavLinks>
           </NavItem>
         </NavMenu>
       </Nav>

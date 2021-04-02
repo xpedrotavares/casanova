@@ -16,16 +16,16 @@ const Sidebar = ({ toggle, isOpen }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLinks to='home' onClick={toggle}>
+                    <SidebarLinks to='home' smooth={true} duration={600} offset={-60} spy={true} onClick={toggle}>
                         Home.
                     </SidebarLinks>
-                    <SidebarLinks to='about' onClick={toggle}>
+                    <SidebarLinks to='about' smooth={true} duration={600} offset={-70} spy={true} onClick={toggle}>
                         About us.
                     </SidebarLinks>
-                    <SidebarLinks to='portfolio' onClick={toggle}>
+                    <SidebarLinks to='portfolio' smooth={true} duration={600} offset={-70} spy={true} onClick={toggle}>
                         Portfolio.
                     </SidebarLinks>
-                    <SidebarLinks to='contact' onClick={toggle}>
+                    <SidebarLinks to='contact' smooth={true} duration={600} offset={-50} spy={true} onClick={toggle}>
                         Contact
                     </SidebarLinks>
                 </SidebarMenu>
