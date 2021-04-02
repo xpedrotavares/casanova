@@ -65,6 +65,8 @@ const Hero = () => {
           </CalltoActionButton>
         </Link> 
         <SocialMediaContainer>
+          
+        <a href="http://www.facebook.com/" rel="noreferrer" target="_blank">
           <svg
             width="14"
             height="27"
@@ -77,7 +79,9 @@ const Hero = () => {
               fill="white"
             />
           </svg>
+          </a>
 
+          <a href="http://www.instagram.com/casanovabuilders" rel="noreferrer" target="_blank">
           <svg
             width="28"
             height="27"
@@ -98,7 +102,7 @@ const Hero = () => {
               fill="white"
             />
           </svg>
-
+</a>
           <svg
            className="houzz-icon"
             width="20"

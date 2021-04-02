@@ -19,7 +19,8 @@ const AsideSocialMedia = () => {
     return (
         <div className="div-social-media">
         <div className="div-social-media-follow">
-          <svg
+        
+            <svg
             width="15"
             height="83"
             viewBox="0 0 15 83"
@@ -83,23 +84,26 @@ const AsideSocialMedia = () => {
         </div>
         <div className="div-social-media-imgs"></div>
         {/* /Facebook svg/ */}
-          <svg
+        <a href="http://www.instagram.com/casanovabuilders" rel="noreferrer" target="_blank">
+             <svg
             className={follow ? "ou" : "white"}
             width="12"
             height="21"
             viewBox="0 0 12 21"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-          >
+            >
             <path d="M9.61089 3.48687H11.6191V0.147875C11.2727 0.102375 10.0811 0 8.69339 0C5.79788 0 3.81437 1.73862 3.81437 4.93412V7.875H0.619141V11.6077H3.81437V21H7.73188V11.6086H10.7979L11.2846 7.87587H7.73096V5.30425C7.73188 4.22537 8.03619 3.48687 9.61089 3.48687Z" />
           </svg>
+            </a>
   
-  
+            <a href="http://www.facebook.com" rel="noreferrer" target="_blank">
           <svg className="instagram-icon" width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M15.519 0H6.71931C3.35566 0 0.619141 2.73652 0.619141 6.10017V14.8998C0.619141 18.2635 3.35566 21 6.71931 21H15.519C18.8826 21 21.6191 18.2635 21.6191 14.8999V6.10017C21.6191 2.73652 18.8826 0 15.519 0ZM19.9785 14.8998C19.9785 17.3588 17.978 19.3594 15.519 19.3594H6.71931C4.2603 19.3594 2.25977 17.3588 2.25977 14.8999V6.10017C2.25977 3.64116 4.2603 1.64062 6.71931 1.64062H15.519C17.978 1.64062 19.9785 3.64116 19.9785 6.10017V14.8998Z"  className={follow ? "ou" : "white"}/>
   <path d="M11.1191 4.83972C7.9981 4.83972 5.45898 7.37883 5.45898 10.4999C5.45898 13.6209 7.9981 16.16 11.1191 16.16C14.2402 16.16 16.7793 13.6209 16.7793 10.4999C16.7793 7.37883 14.2402 4.83972 11.1191 4.83972ZM11.1191 14.5194C8.90278 14.5194 7.09961 12.7162 7.09961 10.4999C7.09961 8.28352 8.90278 6.48035 11.1191 6.48035C13.3355 6.48035 15.1387 8.28352 15.1387 10.4999C15.1387 12.7162 13.3355 14.5194 11.1191 14.5194Z"  className={follow ? "ou" : "white"}/>
   <path d="M16.8613 5.57812C17.3144 5.57812 17.6816 5.21086 17.6816 4.75781C17.6816 4.30477 17.3144 3.9375 16.8613 3.9375C16.4083 3.9375 16.041 4.30477 16.041 4.75781C16.041 5.21086 16.4083 5.57812 16.8613 5.57812Z"  className={follow ? "ou" : "white"}/>
   </svg>
+  </a>
   
   {/* HOUZZ NOT APPLIED YET */}
   {/* <svg classNam="houzz-icon" width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg">

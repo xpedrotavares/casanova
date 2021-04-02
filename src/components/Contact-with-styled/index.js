@@ -130,8 +130,13 @@ const Contact = () => {
             </ContactFormContainer>
 
             <SocialMediasContainer>
+            <a href="http://www.facebook.com/" rel="noreferrer" target="_blank">
               <img className="facebook-icon" src={facebookIcon} />
+              </a>
+              <a href="http://www.instagram.com/casanovabuilders" rel="noreferrer" target="_blank">
+
               <img className="instagram-icon" src={instagramIcon} />
+              </a>
               </SocialMediasContainer>
             <StaticContactContainer className="static-contact-container-desktop">
               
