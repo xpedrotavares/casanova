@@ -34,11 +34,20 @@ export const TestimonialsContainer = styled.div`
      max-height:398px;
      margin-top: 50px;
      overflow:hidden;
-
     @media screen and (max-width:768px){
-
+     border:1px solid red;
      width:75.5vw;
+     min-height:290px;
+     max-height:290px;
      margin-top: 50px;
+    }
+    @media screen and (max-width:375px){
+     min-height:320px;
+     max-height:330px;
+    }
+    @media screen and (max-width:320px){
+     min-height:360px;
+    
     }
 `
 

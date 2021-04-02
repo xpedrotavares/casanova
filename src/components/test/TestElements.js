@@ -6,6 +6,7 @@ justify-content:flex-end;
 align-items:center;
 height:fit-content;
 /* overflow:hidden; */
+
 width:100%;
 /* border:1px solid red; */
 box-sizing:border-box;
@@ -80,6 +81,9 @@ export const TestimonialsStarSection = styled.div`
      @media screen and (max-width:768px){
      margin-top: 20px;
 
+     margin-bottom:10px;
+    
+
      }
 
      /* border:1px solid red; */
@@ -92,6 +96,7 @@ export const StarImage = styled.img`
 
      @media screen and (max-width:768px){
           width:5%;
+
 
      }
 `

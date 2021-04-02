@@ -229,10 +229,10 @@ margin-top:20px;
 export const StaticContactContainer = styled(Grid)`
     display:flex;
     color:white;
-    justify-content:center;
+    justify-content:space-around;
     /* Phone */
     margin-top:100px;
-  
+  width: 700px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -241,7 +241,8 @@ font-size: 16px;
 /* line-height: 19px; */
 
 /* White_CasaNova */
-color: #FFFFFF;
+/* color: #FFFFFF; */
+/* border: 1px solid red; */
 
 
 
@@ -249,12 +250,13 @@ color: #FFFFFF;
         display:flex;
         flex-direction:column;
         align-items:center;
-        width:220px;
+        width:fit-content;
         justify-content:top;
         /* border: 1px solid red; */
     }
+
     section{
-        
+        /* border: 1px solid red; */
         display:flex;
         justify-content:center!important;
         align-items:baseline!important;
@@ -286,6 +288,7 @@ color: #FFFFFF;
 
     @media screen and (max-width:800px){
         margin-top:20px;
+        width:fit-content;
         .static-contact-container-mobile {
             display:initial;
         }

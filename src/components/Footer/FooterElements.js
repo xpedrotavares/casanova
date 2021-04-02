@@ -5,19 +5,21 @@ export const FooterContainer = styled.div`
     justify-content:flex-end;
     align-items:center;
     background-color: #304251;
-    height: 80px;
+    height: 82px;
 
     .back-to-top-desktop{
         display:flex;
         position: relative;
         width:82px;
-        right:15vw;
+        right:13vw;
         bottom: 41px;
+        cursor: pointer;
 
     }
     .back-to-top-mobile{
         display:none;
         width: 54px;
+        cursor: pointer;
     }
 
     @media (max-width: 800px){
