@@ -204,6 +204,7 @@ export const ContactFormItemsMessage = styled(Grid)`
 
 export const SocialMediasContainer = styled(Grid)`
 /* border: 1px solid red; */
+display:none;
 height:50px;
 margin-top:20px;
 
@@ -217,6 +218,10 @@ margin-top:20px;
         margin-top:0;
         margin-bottom:0;
         margin-left:15px;
+    }
+
+    @media screen and (max-width:800px){
+        display: initial;
     }
 `
 

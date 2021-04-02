@@ -180,10 +180,15 @@ export const CalltoActionButton = styled(Button)`
 export const SocialMediaContainer = styled.div`
   display: none;
   @media screen and (max-width: 1200px) {
-    width: 136px;
+    width: 60px;
+    //when apply houz width has to be:
+    /* width: 136px; */
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
+    .houzz-icon{
+      display:none;
+    }
   }
 `;
 

@@ -10,6 +10,9 @@
     min-height: 100vh;
 
 }
+.houzz-icon{
+    display:none;
+}
 
 .div-social-media-follow{
     display: flex;

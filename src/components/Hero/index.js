@@ -15,12 +15,23 @@ import {
   HeroLogoContainer
 } from "./HeroElements";
 
+import $ from "jquery";
 import { makeStyles } from "@material-ui/core/styles";
 import Logo from "../../images/logo-casanova.png";
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+import { scrollToBottom } from "react-scroll/modules/mixins/animate-scroll";
 
 const useStyles = makeStyles({
   root: {},
 });
+
+const handleClick = () =>{
+ 
+
+    scroll.scrollToBottom();
+
+}
 
 const Hero = () => {
   const classes = useStyles();
@@ -45,13 +56,20 @@ const Hero = () => {
             excited to get to know you and your project!
           </HeroSubtitle>
 
+          <Link activeClass="active" to="test1" spy={true} smooth={true} offset={0} duration={600}>
           <CalltoActionButton
+          className="btn"
             variant="contained"
             color="primary"
             text="primary"
+            src="#contact"
+            // onClick={handleClick}
+          
           >
-            Contact Us
+    
+        Contact us
           </CalltoActionButton>
+        </Link> 
         <SocialMediaContainer>
           <svg
             width="14"
@@ -88,6 +106,7 @@ const Hero = () => {
           </svg>
 
           <svg
+           className="houzz-icon"
             width="20"
             height="29"
             viewBox="0 0 20 29"
@@ -95,14 +114,17 @@ const Hero = () => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
+            className="houzz-icon"
               d="M10.2658 0.147376C9.99708 -0.0211826 9.6583 -0.0465571 9.36494 0.0785026L0.848104 3.70342C0.505537 3.85023 0.285992 4.17285 0.285992 4.53171V22.6563C0.285992 22.9626 0.446866 23.249 0.717512 23.4157C0.872708 23.5136 1.05251 23.5625 1.23231 23.5625C1.3629 23.5625 1.49349 23.5353 1.61651 23.4846L10.1334 19.8597C10.4759 19.7147 10.6955 19.3884 10.6955 19.0314V0.906796C10.6955 0.600491 10.5346 0.315935 10.2658 0.147376ZM8.80283 18.4423L2.17862 21.2625V5.12076L8.80283 2.30239V18.4423Z"
               fill="white"
             />
             <path
+            className="houzz-icon"
               d="M18.7826 5.58488C18.5139 5.41632 18.1751 5.39094 17.8817 5.516L9.36489 9.14092C9.02233 9.28773 8.80278 9.61035 8.80278 9.96921V28.0938C8.80278 28.4001 8.96365 28.6865 9.2343 28.8532C9.3895 28.9511 9.5693 29 9.7491 29C9.87969 29 10.0103 28.9728 10.1333 28.9221L18.6501 25.2972C18.9927 25.1522 19.2123 24.8259 19.2123 24.4689V6.3443C19.2123 6.03799 19.0514 5.75343 18.7826 5.58488ZM17.3196 23.8798L10.6954 26.7V10.5583L17.3196 7.73989V23.8798Z"
               fill="white"
             />
             <path
+            className="houzz-icon"
               d="M18.7257 13.71L10.2089 9.177C9.91933 9.02475 9.57298 9.02294 9.28909 9.177L0.772249 13.7081C0.473213 13.8676 0.285843 14.1703 0.285843 14.5002C0.285843 14.8301 0.473213 15.1327 0.772249 15.294L9.28909 19.8252C9.43293 19.8995 9.59191 19.9376 9.74899 19.9376C9.90798 19.9376 10.0651 19.8995 10.2089 19.8252L18.7257 15.2959C19.0248 15.1345 19.2121 14.8319 19.2121 14.502C19.2121 14.1721 19.0248 13.8695 18.7257 13.71ZM9.74899 17.9946L3.18157 14.5002L9.74899 11.0058L16.3183 14.502L9.74899 17.9946Z"
               fill="white"
             />

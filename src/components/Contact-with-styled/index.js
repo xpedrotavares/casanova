@@ -16,7 +16,7 @@ import letterIcon from '../../images/letter-icon.png'
 import facebookIcon from '../../images/facebook-icon.png'
 import instagramIcon from '../../images/instagram-icon.png'
 
-
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 import { makeStyles } from '@material-ui/core/styles'
 
@@ -57,8 +57,8 @@ const Contact = () => {
   const classes = useStyles();
 
     return (
-        <ContactContainer id='contact' className={classes.root}>
-            
+        <ContactContainer id='contact' className={classes.root}  name="contact">
+                <Element name="test1" className="element"></Element>
             <ContactHeaderSection>
             <h1>Get in touch</h1>
             <p >Need help with your project? <br />Let’s talk about it!</p>
