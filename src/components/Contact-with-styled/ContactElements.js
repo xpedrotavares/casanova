@@ -306,7 +306,19 @@ color: #FFFFFF;
         div p{
             margin-bottom:2px;
         } 
+        .phone-icon{
+        width:17px;
+        margin-right: 12px;
     }
+    .pin-icon{
+        width:12px;
+        margin-right: 12px;
+    }
+    .letter-icon{
+        width:20px;
+        margin-right: 12px;
+    }
+}
 
 `
 
