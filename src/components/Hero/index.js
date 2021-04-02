@@ -26,21 +26,15 @@ const useStyles = makeStyles({
   root: {},
 });
 
-const handleClick = () =>{
- 
-
-    scroll.scrollToBottom();
-
-}
-
 const Hero = () => {
   const classes = useStyles();
   return (
     <HeroContainer id="home" className={classes.root}>
       <HeroBgMask>
           <HeroLogoContainer>
-
+          <Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={600}>
         <img src={Logo} />
+        </Link>
           </HeroLogoContainer>
         <HeroArticle>
         <HeroSloganContainer>
