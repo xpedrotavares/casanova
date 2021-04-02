@@ -9,7 +9,9 @@ import BurguerMenuIcon from '../../images/burguer-menu-icon.png';
 import LogoNavMobile from '../../images/logo-casanova.png'
 import { findAllByDisplayValue } from "@testing-library/dom";
 
-console.log(document.body.querySelector("#home"))
+
+
+// console.log(document.body.querySelector("#home"))
 let browserHeightA;
 function setBrowserHeight() {
   return window.innerHeight;
@@ -18,7 +20,7 @@ function setBrowserHeight() {
 
 }
 setBrowserHeight();
-console.log(setBrowserHeight());
+// console.log(setBrowserHeight())
 const Navbar = ( { toggle } ) => {
   const [nav, setNav] = useState(false);
   const changeTextColor = () => {
