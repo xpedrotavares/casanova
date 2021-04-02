@@ -1,9 +1,9 @@
 import React from 'react'
 
-import hatIcon from "../../images/hat-icon.png";
-import coneIcon from "../../images/cone-icon.png";
-import tapIcon from "../../images/tap-icon.png";
-import hammerIcon from "../../images/hammer-icon.png";
+import hatIcon from "../../images/hat-icon.svg";
+import coneIcon from "../../images/cone-icon.svg";
+import tapIcon from "../../images/tape-icon.svg";
+import penIcon from "../../images/pen-icon.svg";
 
 import {
   
@@ -19,7 +19,7 @@ const Services = ({ lg, xl }) => {
       
                <ServicesContainer container>
           <ServiceItem item md={6} xl={3} >
-            <img src={tapIcon} width="65.998" />
+            <img src={tapIcon} width="70" />
 
             <ServicesTitle>Phase 1</ServicesTitle>
             <ServiceParagraph>
@@ -31,7 +31,7 @@ const Services = ({ lg, xl }) => {
           </ServiceItem>
 
           <ServiceItem item md={6} xl={3}>
-            <img src={tapIcon} width="65.998"  />
+            <img src={penIcon} width="80"  />
 
             <ServicesTitle>Phase 2</ServicesTitle>
             <ServiceParagraph>
@@ -42,7 +42,7 @@ const Services = ({ lg, xl }) => {
           </ServiceItem>
 
           <ServiceItem item md={6} xl={3} >
-            <img src={tapIcon} width="65.998" />
+            <img src={coneIcon} width="80" />
 
             <ServicesTitle>Phase 3</ServicesTitle>
             <ServiceParagraph>
@@ -55,7 +55,7 @@ const Services = ({ lg, xl }) => {
           </ServiceItem>
 
           <ServiceItem item md={6} xl={3} >
-            <img src={tapIcon} width="65.998" />
+            <img src={hatIcon} width="80" />
 
             <ServicesTitle>Phase 4</ServicesTitle>
             <ServiceParagraph>
