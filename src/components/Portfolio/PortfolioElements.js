@@ -35,7 +35,7 @@ export const TestimonialsContainer = styled.div`
      margin-top: 50px;
      overflow:hidden;
     @media screen and (max-width:768px){
-     border:1px solid red;
+     /* border:1px solid red; */
      width:75.5vw;
      min-height:290px;
      max-height:290px;
