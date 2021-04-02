@@ -9,6 +9,7 @@ import Portfolio from '../components/Portfolio';
 import Sidebar from '../components/Sidebar'
 import {HomeContainer} from "./HomeElements"
 import Test from '../components/test/Test';
+import Footer from '../components/Footer';
 
 const Home = () => {
     const [ isOpen, setIsOpen ] = useState(false);
@@ -29,6 +30,7 @@ const Home = () => {
           <Contact />
           {/* <Test />
           {/* <Contact2 /> */}
+          <Footer />
         </HomeContainer>
         
     )
