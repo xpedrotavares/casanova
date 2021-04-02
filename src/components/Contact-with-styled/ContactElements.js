@@ -315,7 +315,7 @@ color: #FFFFFF;
         margin-right: 12px;
     }
     .letter-icon{
-        width:20px;
+        width:15px;
         margin-right: 12px;
     }
 }
