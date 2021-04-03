@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
 import MenuItem from '@material-ui/core/MenuItem';
 
 export const ContactContainer = styled.div`
@@ -13,15 +12,12 @@ export const ContactContainer = styled.div`
   height: fit-content;
   background-color: #223140;
   z-index:100;
-  
 
 .MuiOutlinedInput-notchedOutline {
     border-color: #768089!important;
-    
 }
 
   button{
-
     width: 340px;
         height: 57px;
         background-color: #EC8F6A!important;
@@ -44,20 +40,15 @@ export const ContactContainer = styled.div`
     flex-wrap:wrap;
       height:fit-content;
       button{
-
 width: 300px;
 height:40px;
 align-self:center;
-
-   
 }
-
   }
 `;
 
 export const ContactHeaderSection = styled.div`
 width:700px;
-/* border: 1px solid red; */
 margin-bottom:60px;
 margin-top:50px;
 
@@ -69,7 +60,6 @@ margin-top:50px;
         font-size:31px;
         font-weight:bold;
         color:#EC8F6A;
-
     }
     p{
         font-size:23px;
@@ -83,7 +73,6 @@ margin-top:50px;
         height: 1px;
         margin-top: 16px;
         margin-bottom: 36px;
-       
     }
 
     @media screen and (max-width:800px){
@@ -96,7 +85,6 @@ margin-top:50px;
         div{
             margin-bottom:0;
         }
-
     }
 
     @media screen and (max-width:320px){
@@ -110,14 +98,11 @@ margin-top:50px;
         div{
             margin-bottom:0;
         }
-
     }
-    
 `;
 
 export const ContactFormContainer = styled(Grid)`
     display: flex;
-    /* border: 1px solid red; */
     justify-content:center;
     align-items:center;
     flex-direction: column;
@@ -135,13 +120,9 @@ export const ContactFormContainer = styled(Grid)`
 `
 
 export const ContactFormItems = styled(Grid)`
-    /* border:1px solid white; */
-
- 
     width:700px;
     display:flex;
     justify-content:space-between;
-    /* align-items:center; */
     .MuiOutlinedInput-input {
     height: 52px;
     padding: 18.5px 14px;
@@ -151,7 +132,6 @@ export const ContactFormItems = styled(Grid)`
     width: 340px;    
     }
 
-
     @media screen and (max-width:800px){
         width: 340px;
         flex-wrap:wrap;
@@ -160,7 +140,6 @@ export const ContactFormItems = styled(Grid)`
     }
     .email-field{
         margin-top:15px;
-        
     }
     }
     @media screen and (max-width:320px){
@@ -179,7 +158,6 @@ export const ContactFormItems = styled(Grid)`
 export const ContactFormItemsMessage = styled(Grid)`
     margin-top:40px;
     #outlined-multiline-static{
-
         width:670px!important;
         height: 200px;
        
@@ -188,7 +166,6 @@ export const ContactFormItemsMessage = styled(Grid)`
         margin-top: 30px;
         #outlined-multiline-static{
         width:312px!important;
-       
     }
     }
     @media screen and (max-width:320px){
@@ -196,14 +173,11 @@ export const ContactFormItemsMessage = styled(Grid)`
         width:300px!important;
         #outlined-multiline-static{
         width:112px!important;
-       
     }
     }
 `;
 
-
 export const SocialMediasContainer = styled(Grid)`
-/* border: 1px solid red; */
 display:none;
 height:50px;
 margin-top:20px;
@@ -225,26 +199,16 @@ margin-top:20px;
     }
 `
 
-
 export const StaticContactContainer = styled(Grid)`
     display:flex;
     color:white;
     justify-content:space-around;
-    /* Phone */
     margin-top:100px;
   width: 700px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-/* line-height: 19px; */
-
-/* White_CasaNova */
-/* color: #FFFFFF; */
-/* border: 1px solid red; */
-
-
 
     div{
         display:flex;
@@ -252,16 +216,13 @@ font-size: 16px;
         align-items:center;
         width:fit-content;
         justify-content:top;
-        /* border: 1px solid red; */
     }
 
     section{
-        /* border: 1px solid red; */
         display:flex;
         justify-content:center!important;
         align-items:baseline!important;
         margin-bottom: 10px;
-        /* border: 1px solid blue; */
     }
     section p {
         margin-bottom:0;
@@ -299,7 +260,6 @@ font-size: 16px;
         justify-content:center;
         align-items:center;
         div{
-            /* border: 1px solid red; */
             width:fit-content;
             flex-direction: row;
             br{
@@ -327,6 +287,4 @@ font-size: 16px;
 
 export const SelectContactWayContainer = styled(MenuItem)`
     background-color:#223140!important;
-
 `
-

@@ -1,9 +1,6 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 
 const theme = createMuiTheme({
-  "&MuiMenu-list":{
-      backgroundColor: "red"
-  },
     palette:{
       primary:{
         main: "#EC8F6A",
@@ -23,8 +20,6 @@ const theme = createMuiTheme({
         xl: 1900,
       }
     },
-  
-  
   })
 
-  export default theme
+  export default theme;

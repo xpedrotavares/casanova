@@ -8,7 +8,6 @@ export const PortfolioContainer = styled.div`
      width:100%;
      height:fit-content;
      margin-top:50px;
-     /* border: 1px solid red; */
 
      @media screen and (max-width:768px){
           display:flex;
@@ -17,25 +16,20 @@ export const PortfolioContainer = styled.div`
      align-items:center;
      width:100%;
      height:fit-content;
-     /* border: 1px solid red; */
      }
 `
-
-
 
 export const CarouselSection = styled.div`
      margin-top: 25px;
 `
 
 export const TestimonialsContainer = styled.div`
-     /* border: 6px solid yellow;   */
      width:59.7vw;
      min-height:397px;
      max-height:398px;
      margin-top: 50px;
      overflow:hidden;
     @media screen and (max-width:768px){
-     /* border:1px solid red; */
      width:75.5vw;
      min-height:290px;
      max-height:290px;
@@ -47,14 +41,12 @@ export const TestimonialsContainer = styled.div`
     }
     @media screen and (max-width:320px){
      min-height:360px;
-    
     }
 `
 
 export const TestimonialsTitleSection = styled.div`
      display: flex;
      align-items:flex-end;
-
 `
 
 export const TestimonialsTitle = styled.h1`
@@ -76,8 +68,6 @@ margin:0;
 margin-bottom:-5px;
 margin-left:4px;
 }
-
-
 `
 
 export const TestimonialsLine = styled.div`
@@ -97,11 +87,7 @@ export const TestimonialsStarSection = styled.div`
      margin-bottom: 20px;
      @media screen and (max-width:768px){
      margin-top: 20px;
-
      }
-
-     /* border:1px solid red; */
-
 `
 
 export const StarImage = styled.img`
@@ -110,7 +96,6 @@ export const StarImage = styled.img`
 
      @media screen and (max-width:768px){
           width:5%;
-
      }
 `
 
@@ -120,32 +105,20 @@ export const ClientTestimonialTextContainer = styled.div`
 display:flex;
 flex-direction:column;
    align-items: flex-end;
-   /* .transition{
-     
-}
-@keyframes fadein {
 
-} */
 p{
-
- 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;
 font-size: 18px;
 line-height: 30px;
-/* or 131% */
 text-align: right;
 letter-spacing: -0.015em;
 width: 630px;
 color: #828282;
 margin-bottom:0;
-/* border: 1px solid blue; */
-
 }
 .costumer-quote{
-     /* min-height:243px; */
-
 }
 
 .client-name{
@@ -156,38 +129,23 @@ span{
      font-weight:500;
 }
 
-
-
 @media screen and (max-width:1730px) and (min-width:1200px){
 
 p{
      width:700px!important;
 }
-
 }
 
    @media screen and (max-width:768px){
-
      text-align:right;
 
      p{
 font-weight: 300;
 font-size: 13px;
 line-height: 17px;
-/* or 131% */
 text-align: right;
 width: 315px;
 margin-bottom:0;
-
      }
-
-     /* .client-name{
-          font-style: italic;
-          margin-top:9px;
-     }
-     span{
-          font-weight:500;
-     } */
    }
-
 `

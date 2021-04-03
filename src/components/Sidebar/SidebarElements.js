@@ -14,26 +14,20 @@ top:0;
 padding-top: 80px;
 padding-left:15px;
 left:0;
-/* left:0; */
 transition: 0.3s ease-in-out;
 opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
 left: ${({ isOpen }) => (isOpen ? '0' : '100%')};
-
 `
-
-
 
 export const Icon = styled.div`
     position: absolute;
     top: 46px;
     left: 52px;
     background:transparent;
-
     img{
         width:26px;
         cursor: pointer;
     }
-
 `
 
 export const SidebarWrapper = styled.div`
@@ -47,26 +41,16 @@ export const SidebarMenu = styled.ul`
 
 @media screen and (max-width:768px){
     grid-template-rows: repeat(6, 60px);
-    
 }
 
 `
 
 export const SidebarLinks = styled(LinkS)`
-    
-    /* Home. About us. Portfolio. Contact. */
-
-
-
 font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 600;
-
 line-height: 50px;
-
 letter-spacing: -0.015em;
-
-
     display:flex;
     align-items: center;
     justify-content: left;
@@ -87,7 +71,6 @@ letter-spacing: -0.015em;
 
 export const SidebarLogo = styled.div`
     display:flex;
-    
     justify-content:center;
     img{
         margin-left: -15px;
@@ -98,9 +81,7 @@ export const SidebarLogo = styled.div`
     @media screen and (max-width:320px){
         img{
         margin-top: -70px;
-       
     }
 }
-
 `
 

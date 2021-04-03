@@ -2,11 +2,8 @@ import React from 'react'
 
 import {SidebarContainer, Icon, SidebarWrapper, SidebarMenu, SidebarLinks, SidebarLogo} from './SidebarElements'
 
-
 import XIcon from '../../images/back-arrow-icon-menu.png'
 import LogoSidebar from '../../images/logo-sidebar-mobile.png'
-
-
 
 const Sidebar = ({ toggle, isOpen }) => {
     return (
@@ -38,4 +35,4 @@ to the right is written CasaNova. Underneath and centered is written Design and 
     )
 }
 
-export default Sidebar
+export default Sidebar;

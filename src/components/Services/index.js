@@ -71,4 +71,4 @@ const Services = ({ lg, xl }) => {
     )
 }
 
-export default Services
+export default Services;

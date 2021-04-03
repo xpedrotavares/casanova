@@ -2,14 +2,12 @@ import React, {useState} from 'react'
 import About from '../components/About';
 import AsideSocialMedia from '../components/Aside-Social-Media';
 import Contact from '../components/Contact-with-styled';
-import Contact2 from '../components/Contact'
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar'
 import Portfolio from '../components/Portfolio';
 import Sidebar from '../components/Sidebar'
-import {HomeContainer} from "./HomeElements"
-import Test from '../components/test/Test';
 import Footer from '../components/Footer';
+import {HomeContainer} from "./HomeElements"
 
 const Home = () => {
     const [ isOpen, setIsOpen ] = useState(false);
@@ -17,7 +15,6 @@ const Home = () => {
     const toggle = () => {
         setIsOpen(!isOpen)
     }
-
 
     return (
         <HomeContainer>
@@ -28,12 +25,10 @@ const Home = () => {
            <About />
           <Portfolio />
           <Contact />
-          {/* <Test />
-          {/* <Contact2 /> */}
           <Footer />
         </HomeContainer>
         
     )
 }
 
-export default Home
+export default Home;

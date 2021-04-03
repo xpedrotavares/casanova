@@ -2,25 +2,11 @@ import React, { useState } from "react";
 
 import { Nav, NavMenu, NavItem, NavLinks, MobileBurguerMenuIcon, LogoContainer } from "./NavbarElements";
 
-import { useLocation } from 'react-router-dom'
-
 import BurguerMenuIcon from '../../images/burguer-menu-icon.png';
 
 import LogoNavMobile from '../../images/logo-casanova.png'
-import { findAllByDisplayValue } from "@testing-library/dom";
 
 
-
-// console.log(document.body.querySelector("#home"))
-let browserHeightA;
-function setBrowserHeight() {
-  return window.innerHeight;
-
-
-
-}
-setBrowserHeight();
-// console.log(setBrowserHeight())
 const Navbar = ( { toggle } ) => {
   const [nav, setNav] = useState(false);
   const changeTextColor = () => {
@@ -29,11 +15,9 @@ const Navbar = ( { toggle } ) => {
       } else {
         setNav(false);
       }
-      
   }
-  // console.log("Aqui" + browserHeight)
-  
   window.addEventListener('scroll', changeTextColor)
+
   return (
     <>
       <Nav>

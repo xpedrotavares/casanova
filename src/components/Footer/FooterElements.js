@@ -13,17 +13,13 @@ p{
     justify-self:center;
     margin-bottom:0;
     color:white;
-
-
     font-family: 'Roboto';
 font-size: 15px;
 font-style: normal;
 font-weight: 300;
 letter-spacing: -0.015em;
 text-align:center;
-
 width: 42vw;
-    
 }
 div{
     display:flex;
@@ -45,11 +41,6 @@ div{
     .back-to-top-desktop{
         display:initial;
         width:82px;
-        /* position:fixed;
-        right:13vw;
-        bottom:42px;
-        cursor: pointer; */
-
     }
     .back-to-top-container{
             position: relative;
@@ -78,20 +69,16 @@ div{
         }
         .logo-casanova{
     display:inherit;
-    /* margin-top: 30px; */
         }
         p{
             font-size:12px;
             width: 300px;
-
         }
         .back-to-top-desktop{
         display:none
     }
     .back-to-top-mobile{
         display:inherit;
-       
-
     }
     }
 

@@ -1,7 +1,4 @@
 import styled from "styled-components";
-
-import { Link as LinkR } from "react-router-dom";
-
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
@@ -10,41 +7,33 @@ export const Nav = styled.nav`
   padding-right:10px;
   justify-content: center;
     width: 100%;
-  /* align-items: center; */
     min-height: 7.5vh;
   position: fixed;
   left: 5vw;
   top: 80px;
   z-index: 5;
-  /* border:1px solid red; */
 
   .logo-nav-mobile {
     display: none;
   }
 
   @media screen and (max-width: 1200px) {
-    /* transition: 0.8s all ease; */
     background-color: #223240;
     top: 0;
     left: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
-    //passar essa classe para a const LogoContainer
     .logo-nav-mobile {
-      /* border: 1px solid blue; */
       display: flex;
       width: 125px;
       align-self: center;
       margin-left:10%;
-     
     }
   }
 
    @media screen and (max-width: 320px) {
     .logo-nav-mobile {
-   
       width: 115px;
-     
     }
   } 
 `;
@@ -69,8 +58,6 @@ z-index:1000;
     font-size: 20px;
     font-weight: 300;
     text-align: left;
-    /* letter-spacing: 0.015em; */
-    /* color: white; */
     color: white;
     cursor: pointer;
     transition: 0.6s ease-in-out;
@@ -89,8 +76,6 @@ export const NavLinks = styled(LinkS)`
   font-size: 20px;
   font-weight: 300;
   text-align: left;
-  /* letter-spacing: 0.015em; */
-  /* color: white; */
   color: white;
   cursor: pointer;
 
@@ -98,25 +83,10 @@ export const NavLinks = styled(LinkS)`
     border-bottom: 2px solid #ec8f6a;
     color: #ec8f6a;
   }
-
-  /* &.contact.active, &.home, &.contact, &.portfolio, &.about{
-        color:white!important;
-    } */
-
-  /*     
-    &.home.active {
-        border-bottom: 3px solid red;
-        color: white;
-        
-    }
-    &.about.active {
-        color:black;
-    } */
 `;
 
 export const MobileBurguerMenuIcon = styled.div`
   display: none;
-  /* border: 1px solid red; */
   width: 10%;
 
   @media screen and (max-width: 1200px) {
@@ -124,9 +94,6 @@ export const MobileBurguerMenuIcon = styled.div`
     justify-content:start;
     align-items:center;
     position: relative;
-    /* margin-left:60%; */
-    /* right: 55px; */
-    /* transform: translate(100%, 60%); */
     cursor: pointer;
     img {
       width: 26px;
@@ -139,14 +106,11 @@ export const MobileBurguerMenuIcon = styled.div`
   }
 
   @media screen and (max-width: 320px) {
-    /* margin-right:5px; */
   }
 `;
 
 export const LogoContainer = styled.div`
-  /* border:1px solid red; */
   display: flex;
   justify-content:center;
-
   width:90%;
 `

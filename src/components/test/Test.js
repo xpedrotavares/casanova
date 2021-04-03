@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import $ from "jquery";
 
 import { SlideShowContainer, StarImage, TestimonialsStarSection } from "./TestElements";
@@ -14,18 +14,13 @@ setInterval(function () {
     .end()
     .appendTo("#slideshow");
 }, 9000);
+
 const Test = () => {
-
-
-
   return (
     <SlideShowContainer>
-
       <div id="slideshow">
- 
         <div>
         <TestimonialsStarSection>
-
 <StarImage src={Star}></StarImage>
 <StarImage src={Star}></StarImage>
 <StarImage src={Star}></StarImage>

@@ -9,21 +9,14 @@ export const HeroContainer = styled.div`
   background-size: cover;
   width: 100%;
   height: fit-content;
-
   background-repeat: no-repeat;
   min-height: 525px!important;
-
-
-  /* object-fit:contain; */
-  /* background-position-y:50px; */
   @media screen and (max-width: 1200px) {
     margin-top: 7.5vh;
     height: 92.5vh;
     img {
       display: none;
     }
-
-  
   }
 `;
 
@@ -48,20 +41,15 @@ export const HeroLogoContainer = styled.div`
   justify-content: center;
   align-items:center;
   height:30vh;
-  
-  /* border: 1px solid red; */
-  
   img {
     position: relative;
     margin-top: 5%;
     margin-bottom: 5%;
     width: 232.17px;
-    /* top:70px; */
   }
   @media screen and (max-width:1200px){
     display:none;
   }
-
 `
 
 export const HeroSloganContainer = styled.div`
@@ -69,11 +57,8 @@ export const HeroSloganContainer = styled.div`
   font-style: normal;
   font-weight: 200;
   font-size: 1.13rem;
-
-  /* or 615% */
   text-align: center;
   letter-spacing: 0.08em;
-
   color: #ec8f6a;
   position: relative;
 
@@ -93,9 +78,6 @@ min-height: 525px!important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* border: 1px solid red; */
-  
   height: 70vh;
   position: relative;
 
@@ -139,7 +121,6 @@ export const HeroSubtitle = styled.h3`
   letter-spacing: -0.015em;
   margin-bottom: 37px;
   color: #ffffff;
-
   width: 588px;
 
   @media screen and (max-width: 320px) {
@@ -181,8 +162,6 @@ export const SocialMediaContainer = styled.div`
   display: none;
   @media screen and (max-width: 1200px) {
     width: 60px;
-    //when apply houz width has to be:
-    /* width: 136px; */
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
@@ -211,34 +190,16 @@ export const HeroLocationMobile = styled.div`
       font-weight: 400;
 }
 }
-/* 
-  @media screen and (max-width: 768px) {
-    display: relative;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 12px;
-    letter-spacing: -0.015em;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    color: #ffffff;
-    span {
-      font-weight: 400;
-    }
-  } */
 
   @media screen and (max-width: 320px) {
     display: relative;
     margin-top: 35px;
-
     font-family: "Roboto";
     font-style: normal;
     font-weight: 200;
     font-size: 14px;
     line-height: 12px;
     letter-spacing: -0.015em;
-
     color: #ffffff;
 
     span {
@@ -252,7 +213,6 @@ display:flex;
 justify-content:center;
 align-items:flex-end;
   position: relative;
-/* border: 1px solid blue; */
 height:30%;
 
 @media screen and (max-width:1200px){
@@ -265,22 +225,16 @@ height:30%;
 
 
 export const HeroLocationDesktop = styled.div`
-/* float:left; */
 right:45%;
-/* border: 1px solid red; */
  position: relative;
  font-family: "Poppins";
  font-style: normal;
  font-weight: 300;
  font-size: 18px;
  line-height: 27px;
- /* identical to box height */
- 
  bottom: 100px;
  letter-spacing: 0.03em;
-
  color: #ffffff;
-
  transform: rotate(-90deg);
 
  span {

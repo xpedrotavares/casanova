@@ -1,27 +1,14 @@
 import React from "react";
 
-import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
-
-import hatIcon from "../../images/hat-icon.png";
-import coneIcon from "../../images/cone-icon.png";
-import tapIcon from "../../images/tap-icon.png";
-import hammerIcon from "../../images/hammer-icon.png";
-
 import {
   AboutContainer,
   MainTitle,
   MainSubtitle,
   MainParagraph,
-  ServicesContainer,
-  ServiceSection,
-  ServicesTitle,
-  ServiceParagraph,
-  SvgMobile,
-  SvgDesktop,
 } from "./AboutElements";
 import Services from "../Services";
 
-const About = ({ lg, xl }) => {
+const About = () => {
   return (
     <AboutContainer id="about">
       <MainTitle>About us</MainTitle>

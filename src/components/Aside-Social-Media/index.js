@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 import "./styles.css"
 
 const AsideSocialMedia = () => {
@@ -12,7 +11,6 @@ const AsideSocialMedia = () => {
       setFollow(false);
     }
   };
-  // console.log(window.scrollY);
 
   window.addEventListener("scroll", changeTextColor);
 
@@ -116,4 +114,4 @@ const AsideSocialMedia = () => {
     )
 }
 
-export default AsideSocialMedia
+export default AsideSocialMedia;

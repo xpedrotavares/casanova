@@ -25,24 +25,19 @@ export const CarouselContainer = styled(Slider)`
   @media screen and (max-width: 768px) {
     width: 75vw;
     margin-top:0;  
-    
-
 }
 `
 
 export const ImageContainer = styled.div`
-  /* margin: 0 !important; */
-  /* width: 62vw;  */
+  
 `;
 
 export const SlideImage = styled.img`
     width: 29vw;
     height: 40vh;
     object-fit: cover; 
-    /* margin-left: 40px!important; */
-
 
   @media screen and (max-width: 1200px) {
     width: 74.999vw;
   }
-`
+`;

@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
-
-import Slider from "react-slick";
 import {CarouselContainer, ImageContainer, SlideImage} from './CarouselElements'
 
 import slide1 from '../../images/slide-1.jpeg'
@@ -18,8 +16,6 @@ import slide10 from '../../images/slide-10.jpeg'
 import prevArrow from '../../images/prevArrow.png'
 import nextArrow from '../../images/nextArrow.png'
 
-
-
 function getWindowDimensions() {
   const { innerWidth: width } = window;
   if(width > 1200){
@@ -29,17 +25,9 @@ function getWindowDimensions() {
   }
 };
 
-// autoplay: true,
-// autoplaySpeed: 4000,
-
 const Carousel = () => {
-
-
-  
-
     let settings = {
         dots: false,
-       
         cssEase: 'linear',
         infinite: true,
         speed: 500,
@@ -50,13 +38,9 @@ const Carousel = () => {
         centerPadding: '60px',
         prevArrow:<img class='a-left control-c prev slick-prev' alt="fazer" src={prevArrow} />,
         nextArrow:<img class='a-right control-c next slick-next' alt="fazer" src={nextArrow} />,
-        // arrows:true,
-    //   ease:true
       };
     
     return (
-   
-
         <CarouselContainer className=" ae" {...settings}>
       <ImageContainer>
       <SlideImage className="iii" src={slide1} alt="fazer" />
@@ -70,9 +54,26 @@ const Carousel = () => {
       <ImageContainer>
       <SlideImage className="iii" src={slide4} alt="fazer" />
       </ImageContainer>
-      
+      <ImageContainer>
+      <SlideImage className="iii" src={slide5} alt="fazer" />
+      </ImageContainer>
+      <ImageContainer>
+      <SlideImage className="iii" src={slide6} alt="fazer" />
+      </ImageContainer>
+      <ImageContainer>
+      <SlideImage className="iii" src={slide7} alt="fazer" />
+      </ImageContainer>
+      <ImageContainer>
+      <SlideImage className="iii" src={slide8} alt="fazer" />
+      </ImageContainer>
+      <ImageContainer>
+      <SlideImage className="iii" src={slide9} alt="fazer" />
+      </ImageContainer>
+      <ImageContainer>
+      <SlideImage className="iii" src={slide10} alt="fazer" />
+      </ImageContainer>
     </CarouselContainer>
     )
 }
 
-export default Carousel
+export default Carousel;

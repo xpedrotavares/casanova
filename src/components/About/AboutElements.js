@@ -10,14 +10,13 @@ export const AboutContainer = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  position:static;
-
-  margin-top:50px;
-  /* border: 1px solid red; */
+  position: static;
+  margin-top: 50px;
 
   @media screen and (max-width: 1200px) {
     height: 190vh;
   }
+
   @media screen and (max-width: 800px) {
     width: 100%;
     height: fit-content;
@@ -27,11 +26,10 @@ export const AboutContainer = styled.div`
     align-items: center;
     text-align: center;
   }
-
 `;
 
 export const MainTitle = styled.h1`
-position:static;
+  position: static;
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
@@ -57,9 +55,7 @@ export const MainSubtitle = styled.h3`
   font-weight: bold;
   font-size: 22px;
   letter-spacing: -0.015em;
-
   color: #223240;
-  /* margin-bottom:-10px; */
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
@@ -73,16 +69,13 @@ export const MainSubtitle = styled.h3`
 
 export const MainParagraph = styled.p`
   width: 770px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  /* or 150% */
   text-align: center;
   letter-spacing: -0.015em;
-
   color: #727272;
 
   br {
@@ -96,7 +89,6 @@ export const MainParagraph = styled.p`
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     text-align: center;
     letter-spacing: -0.015em;
     br {
@@ -104,34 +96,15 @@ export const MainParagraph = styled.p`
     }
     color: #727272;
   }
-  @media screen and (max-width: 320px){
-    width:280px;
+  @media screen and (max-width: 320px) {
+    width: 280px;
   }
 `;
 
-// aquuuui
-
-
 export const ServiceSection = styled(Grid)`
   border: 5px solid green;
-  /* border: 1px solid red; */
   max-width: 23% !important;
-  height:fit-content;
-  /* @media screen and (min-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 320px;
-    justify-content: center;
-  } */
-
-  /* 
-    @media screen and (max-width:1400px){
-        text-align: center;
-        
-        align-items: center;
-
-} */
+  height: fit-content;
 `;
 
 export const SvgDesktop = styled.svg`
@@ -141,8 +114,10 @@ export const SvgDesktop = styled.svg`
     display: none;
   }
 `;
+
 export const SvgMobile = styled.svg`
   visibility: hidden;
+  
   @media screen and (max-width: 768px) {
     visibility: visible;
   }
@@ -156,7 +131,6 @@ export const ServicesTitle = styled.h1`
   line-height: 36px;
   letter-spacing: -0.015em;
   color: #223240;
-
   margin-bottom: 0px;
 
   @media screen and (max-width: 768px) {
@@ -166,7 +140,6 @@ export const ServicesTitle = styled.h1`
     font-size: 17px;
     text-align: center;
     letter-spacing: -0.015em;
-
     color: #223240;
     margin-top: 13px;
     margin-bottom: 12px;
@@ -179,12 +152,8 @@ export const ServiceParagraph = styled.p`
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
-  /* or 150% */
   letter-spacing: -0.015em;
-  /* height: 70px; */
   color: #828282;
-  /* overflow-y:hidden; */
-  /* width:50%; */
 
   @media screen and (max-width: 768px) {
     font-family: "Roboto";
@@ -192,11 +161,9 @@ export const ServiceParagraph = styled.p`
     font-weight: 300;
     font-size: 13px;
     line-height: 24px;
-    /* or 171% */
     text-align: center;
     letter-spacing: -0.015em;
     color: #828282;
-
     margin-top: 0px;
   }
 `;
