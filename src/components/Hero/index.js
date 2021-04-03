@@ -19,7 +19,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import Logo from "../../images/logo-casanova.png";
 import {
   Link,
-  animateScroll as scroll,
 } from "react-scroll";
 
 const useStyles = makeStyles({
@@ -40,7 +39,7 @@ const Hero = () => {
             offset={-70}
             duration={600}
           >
-            <img src={Logo} />
+            <img src={Logo} alt="logo"/>
           </Link>
         </HeroLogoContainer>
         <HeroArticle>

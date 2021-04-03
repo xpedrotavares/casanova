@@ -14,7 +14,6 @@ import instagramIcon from "../../images/instagram-icon.png";
 
 import {
   Element,
-  animateScroll as scroll,
 } from "react-scroll";
 
 import { makeStyles } from "@material-ui/core/styles";
@@ -127,14 +126,14 @@ const Contact = () => {
 
       <SocialMediasContainer>
         <a href="http://www.facebook.com/" rel="noreferrer" target="_blank">
-          <img className="facebook-icon" src={facebookIcon} />
+          <img className="facebook-icon" src={facebookIcon} alt="facebook icon" />
         </a>
         <a
           href="http://www.instagram.com/casanovabuilders"
           rel="noreferrer"
           target="_blank"
         >
-          <img className="instagram-icon" src={instagramIcon} />
+          <img className="instagram-icon" src={instagramIcon} alt="instagram icon" />
         </a>
       </SocialMediasContainer>
       <StaticContactContainer className="static-contact-container-desktop">

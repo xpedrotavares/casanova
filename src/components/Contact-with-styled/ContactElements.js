@@ -124,7 +124,7 @@ export const ContactFormItems = styled(Grid)`
     display:flex;
     justify-content:space-between;
     .MuiOutlinedInput-input {
-    height: 52px;
+    height: 20px;
     padding: 18.5px 14px;
 }
     .MuiFormControl-root {

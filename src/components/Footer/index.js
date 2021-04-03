@@ -2,7 +2,6 @@ import React from "react";
 
 import {
   Link,
-  animateScroll as scroll,
 } from "react-scroll";
 
 import { FooterContainer } from "./FooterElements";
@@ -15,7 +14,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <div className="logo-casanova-container">
-        <img className="logo-casanova" src={casaNovaLogo} />
+        <img className="logo-casanova" src={casaNovaLogo} alt="casanova logo" />
       </div>
       <div>
         <p>

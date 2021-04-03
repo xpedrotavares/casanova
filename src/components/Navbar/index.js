@@ -23,10 +23,10 @@ const Navbar = ( { toggle } ) => {
       <Nav>
         <LogoContainer>
 
-        <img className="logo-nav-mobile" src={LogoNavMobile} />
+        <img className="logo-nav-mobile" src={LogoNavMobile} alt="logo" />
         </LogoContainer>
         <MobileBurguerMenuIcon onClick={toggle}>
-          <img src={BurguerMenuIcon} />
+          <img src={BurguerMenuIcon} alt="Burguer menu icon" />
      
         </MobileBurguerMenuIcon>
         <NavMenu>

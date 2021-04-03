@@ -14,12 +14,12 @@ import {
   
   } from "./ServicesElements";
 
-const Services = ({ lg, xl }) => {
+const Services = () => {
     return (
       
                <ServicesContainer container>
           <ServiceItem item md={6} xl={3} >
-            <img src={tapIcon} width="70" />
+            <img src={tapIcon} width="70" alt="Tape in orange" />
 
             <ServicesTitle>Phase 1</ServicesTitle>
             <ServiceParagraph>
@@ -31,7 +31,7 @@ const Services = ({ lg, xl }) => {
           </ServiceItem>
 
           <ServiceItem item md={6} xl={3}>
-            <img src={penIcon} width="80"  />
+            <img src={penIcon} width="80" alt="Pen in orange" />
 
             <ServicesTitle>Phase 2</ServicesTitle>
             <ServiceParagraph>
@@ -42,7 +42,7 @@ const Services = ({ lg, xl }) => {
           </ServiceItem>
 
           <ServiceItem item md={6} xl={3} >
-            <img src={coneIcon} width="80" />
+            <img src={coneIcon} width="80" alt="cone in orange" />
 
             <ServicesTitle>Phase 3</ServicesTitle>
             <ServiceParagraph>
@@ -55,7 +55,7 @@ const Services = ({ lg, xl }) => {
           </ServiceItem>
 
           <ServiceItem item md={6} xl={3} >
-            <img src={hatIcon} width="80" />
+            <img src={hatIcon} width="80" alt="Construction hat in orange" />
 
             <ServicesTitle>Phase 4</ServicesTitle>
             <ServiceParagraph>
