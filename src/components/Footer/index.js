@@ -9,17 +9,23 @@ import { FooterContainer } from "./FooterElements";
 import backtotopMobile from "../../images/backtotop-icon-mobile.png";
 import backtotopDesktop from "../../images/backtotop-icon-desktop.png";
 import casaNovaLogo from "../../images/logo-casanova.png";
+import certificateIcon from "../../images/certificate-icon.png"
 
 const Footer = () => {
   return (
     <FooterContainer>
       <div className="logo-casanova-container">
         <img className="logo-casanova" src={casaNovaLogo} alt="casanova logo" />
+        <div className="certificate-container">
+
+        <img className="certificate-icon" src={certificateIcon}  alt="certificate"/>
+        <p className="certificate-text">Licensed & insured</p>
+        </div>
       </div>
-      <div>
+      <div className="info-dev">
         <p>
           @ 2021 CasaNova Design & Build. All rights reserved. Site designed and
-          developed by Contra Fluxo
+          developed by Contra Fluxo.
         </p>
       </div>
       <Link

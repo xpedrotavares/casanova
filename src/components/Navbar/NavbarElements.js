@@ -48,7 +48,6 @@ export const NavMenu = styled.ul`
   height: 203.85px;
   width:160px;
   left:-10px;
-border:1px solid red;
 z-index:1000;
   @media screen and (max-width: 1200px) {
     display: none;

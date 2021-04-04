@@ -68,11 +68,29 @@ margin-top:50px;
         margin-bottom: 30px;
     }
 
+    .papers-icon{
+        width:55px;
+    }
+    section{
+        display: flex;
+        justify-content:left;
+        align-items:center;
+        margin-bottom:30px;
+    }
+
     div{
         border-top: 1px solid white;
         height: 1px;
         margin-top: 16px;
         margin-bottom: 36px;
+    }
+    .estimates-text{
+        font-family: 'Poppins';
+        font-size: 20px;
+        margin-bottom:0;
+        line-height:25px;
+        margin-left: 15px;
+        margin-top:5px;
     }
 
     @media screen and (max-width:800px){
@@ -85,6 +103,16 @@ margin-top:50px;
         div{
             margin-bottom:0;
         }
+        .papers-icon{
+        width:40px;
+    }
+    .estimates-text{
+        font-size: 14px;
+        line-height:18px;
+    }
+    section{
+        margin-bottom:10px;
+    }
     }
 
     @media screen and (max-width:320px){
@@ -203,6 +231,7 @@ export const StaticContactContainer = styled(Grid)`
     display:flex;
     color:white;
     justify-content:space-around;
+    align-items:center;
     margin-top:100px;
   width: 700px;
 font-family: 'Roboto';
@@ -245,13 +274,16 @@ font-size: 16px;
     }
     .static-contact-container-mobile {
             display:none;
+    
         }
 
     @media screen and (max-width:800px){
         margin-top:20px;
         width:fit-content;
         .static-contact-container-mobile {
-            display:initial;
+            display:flex;
+            justify-content:center;
+            align-items:center;
         }
         .static-contact-container-desktop {
             display:none;

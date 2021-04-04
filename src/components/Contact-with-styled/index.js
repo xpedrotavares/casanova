@@ -8,6 +8,7 @@ import { Button } from "react-bootstrap";
 import phoneIcon from "../../images/phone-icon.png";
 import pinIcon from "../../images/pin-icon.png";
 import letterIcon from "../../images/letter-icon.png";
+import papersIcon from "../../images/papers-icon.svg";
 
 import facebookIcon from "../../images/facebook-icon.png";
 import instagramIcon from "../../images/instagram-icon.png";
@@ -67,6 +68,10 @@ const Contact = () => {
           Need help with your project? <br />
           Let’s talk about it!
         </p>
+        <section>
+        <img className="papers-icon" src={papersIcon} alt="papers icon" />
+        <p className="estimates-text">We offer<br />free estimates.</p>
+        </section>
         <div> </div>
       </ContactHeaderSection>
 
