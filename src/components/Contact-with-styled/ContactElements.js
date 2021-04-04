@@ -69,7 +69,7 @@ margin-top:50px;
     }
 
     .papers-icon{
-        width:55px;
+        width:45px;
     }
     section{
         display: flex;
@@ -90,7 +90,7 @@ margin-top:50px;
         margin-bottom:0;
         line-height:25px;
         margin-left: 15px;
-        margin-top:5px;
+        margin-top:15px;
     }
 
     @media screen and (max-width:800px){
