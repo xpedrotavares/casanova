@@ -8,7 +8,6 @@ import Portfolio from '../components/Portfolio';
 import Sidebar from '../components/Sidebar'
 import Footer from '../components/Footer';
 import {HomeContainer} from "./HomeElements"
-import Aaa from '../components/aaa/Aaa';
 
 const Home = () => {
     const [ isOpen, setIsOpen ] = useState(false);
