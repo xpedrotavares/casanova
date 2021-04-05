@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 
+import * as emailjs from "emailjs-com"
+import{ init } from 'emailjs-com';
 import PhoneNumber from "../Contact/PhoneNumber";
-
-import { TextField } from "@material-ui/core";
+import { TextField, FormControl } from "@material-ui/core";
 import { Button } from "react-bootstrap";
+
+import ContactForm from '../Contact-form/index'
 
 import phoneIcon from "../../images/phone-icon.png";
 import pinIcon from "../../images/pin-icon.png";
@@ -24,40 +27,134 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {
   ContactContainer,
   ContactHeaderSection,
-  ContactFormContainer,
-  ContactFormItems,
-  ContactFormItemsMessage,
   SocialMediasContainer,
   StaticContactContainer,
-  SelectContactWayContainer,
 } from "./ContactElements";
 
 const useStyles = makeStyles({
   root: {},
 });
 
+
+// init("user_HTSeOWb2k9sLX2fyp4HyY");
+
+
+
+
+//   const emptyEmail = {
+//     from_name: '',
+//     from_email: '',
+//     to_name: 'AnthonyTC',
+//     message_html: '',
+//   };
+
+
 const Contact = () => {
-  const contactWaysArr = [
-    {
-      value: "call",
-      label: "Call me",
-    },
-    {
-      value: "Text",
-      label: "Send me a text",
-    },
-    {
-      value: "Email",
-      label: "Send me an email",
-    },
-  ];
-
-  const [contactWays, setCcontactWays] = React.useState("");
-
-  const handleChange = (event) => {
-    setCcontactWays(event.target.value);
-  };
+  // const contactWaysArr = [
+  //   {
+  //     value: "call",
+  //     label: "Call me",
+  //   },
+  //   {
+  //     value: "Text",
+  //     label: "Send me a text",
+  //   },
+  //   {
+  //     value: "Email",
+  //     label: "Send me an email",
+  //   },
+  // ];
   const classes = useStyles();
+
+  // const [contactWays, setCcontactWays] = React.useState("");
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState(emptyEmail);
+  // const [message, setMessage] = useState("")
+
+
+  // const handleChange = (event) => {
+  //   event.persist();
+  //   setEmail((prev) => (
+  //     { ...prev, [event.target.name]: event.target.value}
+  //   ));
+  // }
+
+  
+  // const handleContactWay = (event) => {
+  //   setCcontactWays(event.target.value);
+  // };
+  
+  // const handleName = (event) => {
+  //   setName(event.target.value);
+  // }
+  
+  // const handleEmail = (event) => {
+  //   setEmail(event.target.value);
+  // }
+  // const [message, setMessage] = useState("");
+
+  // const handleMessage = (event) => {
+  //   setMessage(event.target.value);
+  // }
+
+  // function sendEmail(event) {
+  //   event.preventDefault();
+    
+  //   emailjs.sendForm("gmail", event.target, "user_HTSeOWb2k9sLX2fyp4HyY")
+  //   .then((result) => {
+  //     console.log(result.text);
+  //   }, (error) => {
+  //     console.log(error.text);
+  //   });
+  // }
+
+//   const templateParams = {
+// name: '',
+// email: '',
+// constactWays: '',
+// message: '',
+// contactWays: '',
+//   }
+
+  // const handleSubmit =  async (event) => {
+  //   event.preventDefault();
+  //   try{
+
+  //    await emailjs.send("service_0w1sbsi", "template_racj69e", email, "user_HTSeOWb2k9sLX2fyp4HyY");
+  //    setEmail(emptyEmail);
+  //   } catch (err) {
+  //     alert('error')
+  //   }
+  // }
+
+    // }
+    //    .then(setEmail(emptyEmail))
+    //  .then(function(response){
+    //    console.log("Success!", response.status, response.text);
+    //  }, function(error) {
+    //    console.log('Failed', error)
+    //  })
+
+    
+    //   setEmail(emptyEmail)
+    // } catch (err) {
+    //   console.log("deu ruim")
+    // };
+
+  
+  // .sendForm(
+  //   "gmail",
+  //   "template_racj69e",
+  //   ".contact_form_class",
+  //   "user_HTSeOWb2k9sLX2fyp4HyY"
+  // )
+  // .then()
+  // .catch();
+  // this.setState({
+  //   name: "",
+  //   email: ""
+  // })
+  // event.target.reset()
 
   return (
     <ContactContainer id="contact" className={classes.root} name="contact">
@@ -75,59 +172,7 @@ const Contact = () => {
         <div> </div>
       </ContactHeaderSection>
 
-      <ContactFormContainer container>
-        <ContactFormItems item>
-          <TextField
-            id="outlined-basic"
-            label="What's your name?"
-            variant="outlined"
-          />
-          <TextField
-            className={classes.root}
-            id="outlined-select-currency"
-            select
-            label="What's the best way to contact you?"
-            value={contactWays}
-            onChange={handleChange}
-            helperText="*Select the best way to contact you"
-            variant="outlined"
-            color="primary"
-            text="primary"
-          >
-            {contactWaysArr.map((option) => (
-              <SelectContactWayContainer
-                key={option.value}
-                value={option.value}
-              >
-                {option.label}
-              </SelectContactWayContainer>
-            ))}
-          </TextField>
-        </ContactFormItems>
-        <ContactFormItems item>
-          <TextField
-            className="email-field"
-            id="outlined-basic"
-            label="What's your email?"
-            variant="outlined"
-            text="primary"
-          />
-          <PhoneNumber />
-        </ContactFormItems>
-        <ContactFormItemsMessage>
-          <TextField
-            id="outlined-multiline-static"
-            label="Share your project with us:"
-            helperText="*If possible, include a rough size, location and time frame"
-            multiline
-            rows={7}
-            variant="outlined"
-            color="primary"
-            text="primary"
-          />
-        </ContactFormItemsMessage>
-        <Button>Submit</Button>
-      </ContactFormContainer>
+     <ContactForm />
 
       <SocialMediasContainer>
         <a href="http://www.facebook.com/" rel="noreferrer" target="_blank">

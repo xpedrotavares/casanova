@@ -5,7 +5,7 @@ import "./styles.css"
 const AsideSocialMedia = () => {
     const [follow, setFollow] = useState(false);
   const changeTextColor = () => {
-    if (window.scrollY >= 634 &&  window.scrollY < 3404 && window.innerHeight > 550) {
+    if (window.scrollY >= 634 &&  window.scrollY < 3204 && window.innerHeight > 550) {
       setFollow(true);
     } else {
       setFollow(false);
@@ -74,8 +74,8 @@ const AsideSocialMedia = () => {
               x2="1.61915"
               y2="173"
               stroke={follow ? "black" : "white"}
-              stroke-width="2"
-              stroke-linecap="round"
+              strokeWidth="2"
+              strokeLinecap="round"
             />
           </svg>
   
