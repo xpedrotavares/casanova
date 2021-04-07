@@ -53,14 +53,14 @@ const ContactForm = () => {
     event.preventDefault();
     try {
       await emailjs.send(
-        "service_0w1sbsi",
-        "template_racj69e",
+        "service_iw8rqxe",
+        "template_c78rhr2",
         email,
-        "user_HTSeOWb2k9sLX2fyp4HyY"
+        "user_vIyt2IDY0WZiyrBlYHKAm"
       );
       setEmail(emptyEmail);
     } catch (err) {
-      alert("error");
+      alert("Please, try ro send your email again. If you've tried to resend it once and it didn't work. Please send your email to info @ casanovabuilders and inform us of this error.");
     }
   };
   return (

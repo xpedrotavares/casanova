@@ -88,9 +88,10 @@ export const MainParagraph = styled.p`
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 23px;
     text-align: center;
     letter-spacing: -0.015em;
+  
     br {
       display: inherit;
     }
@@ -151,7 +152,7 @@ export const ServiceParagraph = styled.p`
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 23px;
   letter-spacing: -0.015em;
   color: #828282;
 
@@ -160,7 +161,7 @@ export const ServiceParagraph = styled.p`
     font-style: normal;
     font-weight: 300;
     font-size: 13px;
-    line-height: 24px;
+    line-height: 20px;
     text-align: center;
     letter-spacing: -0.015em;
     color: #828282;

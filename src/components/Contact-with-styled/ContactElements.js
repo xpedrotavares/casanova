@@ -65,11 +65,11 @@ margin-top:50px;
         font-size:23px;
         color:white;
         font-weight:300;
-        margin-bottom: 30px;
+       
     }
 
     .papers-icon{
-        width:45px;
+        width:20px;
     }
     section{
         display: flex;
@@ -86,11 +86,12 @@ margin-top:50px;
     }
     .estimates-text{
         font-family: 'Poppins';
-        font-size: 20px;
+        font-size: 14px;
         margin-bottom:0;
         line-height:25px;
         margin-left: 15px;
-        margin-top:15px;
+        margin-top:5px;
+      
     }
 
     @media screen and (max-width:800px){
@@ -156,7 +157,7 @@ export const StaticContactContainer = styled(Grid)`
     display:flex;
     color:white;
     justify-content:space-around;
-    align-items:center;
+    align-items:top;
     margin-top:100px;
   width: 700px;
 font-family: 'Roboto';
@@ -174,7 +175,7 @@ font-size: 16px;
 
     section{
         display:flex;
-        justify-content:center!important;
+        justify-content:start!important;
         align-items:baseline!important;
         margin-bottom: 10px;
     }
@@ -183,16 +184,17 @@ font-size: 16px;
     }
 
     .phone-icon{
-        width:22px;
-        margin-right: 12px;
+        width:15px;
+        margin-right: 5px;
+        margin-left:-10px
     }
     .pin-icon{
-        width:17px;
-        margin-right: 12px;
+        width:10px;
+        margin-right: 5px;
     }
     .letter-icon{
-        width:25px;
-        margin-right: 12px;
+        width:18px;
+        margin-right: 5px;
     }
     span{
         display:none;

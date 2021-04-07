@@ -15,11 +15,10 @@ const Footer = () => {
   return (
     <FooterContainer>
       <div className="logo-casanova-container">
-        <img className="logo-casanova" src={casaNovaLogo} alt="casanova logo" />
         <div className="certificate-container">
+        <img className="logo-casanova" src={casaNovaLogo} widht="20" alt="casanova logo" />
 
-        <img className="certificate-icon" src={certificateIcon}  alt="certificate"/>
-        <p className="certificate-text">Licensed & insured</p>
+        <p className="certificate-text">Licensed & insured.</p>
         </div>
       </div>
       <div className="info-dev">

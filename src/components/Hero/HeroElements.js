@@ -94,7 +94,7 @@ export const HeroTitle = styled.h1`
   letter-spacing: -0.015em;
   line-height: 68px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   color: #ffffff;
   span {
     font-weight: 800;

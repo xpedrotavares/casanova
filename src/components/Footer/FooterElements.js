@@ -6,7 +6,7 @@ export const FooterContainer = styled.div`
     justify-content:flex-end;
     align-items:flex-end;
     background-color: #304251;
-    height: 130px;
+    height: 70px;
     .info-dev{
         display:flex;
         align-items: end;
@@ -35,11 +35,14 @@ div{
 .certificate-text{
     width:fit-content;
     font-size: 15px;
-    margin:0 0 5px 5px;
+    font-weight:500;
+    margin:0 0 -10px 5px;
+    
 
 }
 .certificate-container{
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
 }
@@ -68,7 +71,7 @@ div{
     }
     .back-to-top-container{
             position: relative;
-            bottom:170px;
+            bottom:110px;
             margin-right: 13vw;
         }
     .back-to-top-mobile{
@@ -97,7 +100,7 @@ div{
 
     display:inherit;
     margin-top:10px;
-    width:160px;
+    width:100px;
         }
         p{
             font-size:12px;
@@ -114,6 +117,14 @@ div{
     .back-to-top-mobile{
         display:inherit;
     }
+
+    .certificate-text{
+    width:fit-content;
+    font-size: 12px;
+    font-weight:500;
+    margin:0 0 5px 5px;
+
+}
     }
 
 `
