@@ -105,7 +105,7 @@ margin-top:50px;
             margin-bottom:0;
         }
         .papers-icon{
-        width:40px;
+        width:20px;
     }
     .estimates-text{
         font-size: 14px;
