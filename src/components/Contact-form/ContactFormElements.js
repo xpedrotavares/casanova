@@ -15,8 +15,25 @@ width: 700px!important;
 .MuiFormHelperText-root {
     color:#cacaca8a;
 }
+.MuiButton-root{
+    box-shadow: 9px 6px 13px -2px rgba(13,31,47,0.70);
+-webkit-box-shadow: 9px 6px 13px -2px rgba(13,31,47,0.70);
+-moz-box-shadow: 9px 6px 13px -2px rgba(13,31,47,0.70);
+}
+.feedack-text{
+    font-family:'roboto';
+    color:#EC8F6A;
+    font-size:12px;
+    margin-top: 20px;
+    width:300px;
+    strong{
+        font-size:14px;
+    }
+
+}
 @media screen and (max-width:1200px){
     width: fit-content!important;
+
 }
 
 `
@@ -34,6 +51,7 @@ padding: 18.5px 14px;
     margin-top:20px;
 width: 340px;    
 }
+
 
 .phone-input{
     input::-webkit-outer-spin-button,
@@ -75,8 +93,9 @@ margin-top:40px;
 }
 @media screen and (max-width:800px){
     margin-top: 30px;
+    width:340px!important;
     #outlined-multiline-static{
-    width:312px!important;
+    width:100px!important;
 }
 }
 @media screen and (max-width:320px){

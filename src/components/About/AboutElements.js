@@ -11,7 +11,7 @@ export const AboutContainer = styled.div`
   align-items: center;
   text-align: center;
   position: static;
-  margin-top: 50px;
+  margin-top: 200px;
 
   @media screen and (max-width: 1200px) {
     height: 190vh;

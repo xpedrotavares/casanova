@@ -70,6 +70,7 @@ const Hero = () => {
               color="primary"
               text="primary"
               src="#contact"
+              box-shadow={5}
             >
               Contact us
             </CalltoActionButton>

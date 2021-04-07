@@ -49,8 +49,8 @@ align-self:center;
 
 export const ContactHeaderSection = styled.div`
 width:700px;
-margin-bottom:60px;
-margin-top:50px;
+margin-bottom:30px;
+margin-top:200px;
 
     h1, p{
         font-family: 'Poppins'

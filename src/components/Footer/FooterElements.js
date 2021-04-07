@@ -4,13 +4,17 @@ export const FooterContainer = styled.div`
     display:flex;
     flex-wrap: wrap;
     justify-content:flex-end;
-    align-items:flex-end;
+    align-items:center;
     background-color: #304251;
-    height: 70px;
+    height: 80px;
     .info-dev{
         display:flex;
-        align-items: end;
+        align-items: start;
         height:30%;
+        
+    }
+    .info-dev p {
+     
     }
 p{
     margin-right:auto;
@@ -24,12 +28,12 @@ font-style: normal;
 font-weight: 300;
 letter-spacing: -0.015em;
 text-align:center;
-width: 42vw;
+/* width: 42vw; */
 }
 div{
     display:flex;
     align-items: flex-end;
-    height:70%;
+    height:65%;
     width:100%;
 } 
 .certificate-text{
@@ -79,7 +83,7 @@ div{
         width: 54px;
         cursor: pointer;
     }
-
+ 
     @media (max-width: 800px){
         display:flex;
         align-items:center;
@@ -102,15 +106,13 @@ div{
     margin-top:10px;
     width:100px;
         }
+     
         p{
             font-size:12px;
             width: 300px;
         }
 
-        .certificate-icon{
-    width: 30px;
-    margin-right:5px
-}
+
         .back-to-top-desktop{
         display:none
     }

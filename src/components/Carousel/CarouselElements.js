@@ -21,6 +21,12 @@ export const CarouselContainer = styled(Slider)`
   .slick-list {
     margin: 0 10px;
   }
+.slick-slide img {
+  box-shadow: 9px 6px 13px -2px rgba(0,0,0,0.32);
+-webkit-box-shadow: 9px 6px 13px -2px rgba(0,0,0,0.32);
+-moz-box-shadow: 9px 6px 13px -2px rgba(0,0,0,0.32);
+
+}
 
   @media screen and (max-width: 768px) {
     width: 75vw;
@@ -29,13 +35,17 @@ export const CarouselContainer = styled(Slider)`
 `
 
 export const ImageContainer = styled.div`
-  
+
+
+
 `;
 
 export const SlideImage = styled.img`
     width: 29vw;
     height: 40vh;
     object-fit: cover; 
+   
+   
 
   @media screen and (max-width: 1200px) {
     width: 74.999vw;

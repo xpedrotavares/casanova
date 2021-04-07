@@ -49,20 +49,26 @@ const ContactForm = () => {
     setEmail((prev) => ({ ...prev, [event.target.name]: event.target.value }));
   };
 
+
+  const [message, setMessage] = useState(null)
+ 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    
     try {
       await emailjs.send(
-        "service_iw8rqxe",
-        "template_c78rhr2",
+        "service_0w1sbsi", // "service_iw8rqxe",
+       "template_racj69e", // "template_c78rhr2",
         email,
-        "user_vIyt2IDY0WZiyrBlYHKAm"
+       "user_HTSeOWb2k9sLX2fyp4HyY", // "user_vIyt2IDY0WZiyrBlYHKAm"
       );
       setEmail(emptyEmail);
+      setMessage(<p className="feedack-text"><strong>Thank you for reaching out to us!</strong><br /> Someone from our extraordinary team will contact you by your preferred method within the next business day!</p>);
     } catch (err) {
-      alert("Please, try ro send your email again. If you've tried to resend it once and it didn't work. Please send your email to info @ casanovabuilders and inform us of this error.");
+      alert("Please, try ro send your email again. If you've tried to resend it once again and it didn't work. Please send your message to info@casanovabuilders.com and inform us about this error.");
     }
   };
+ 
   return (
     <>
       <ContactFormContainer container>
@@ -143,7 +149,8 @@ const ContactForm = () => {
               onChange={handleChange}
             />
           </ContactFormItemsMessage>
-          <Button type="submit">Submit</Button>
+          <Button id="form-button" type="submit">Submit</Button>
+           {message}
         </form>
       </ContactFormContainer>
     </>

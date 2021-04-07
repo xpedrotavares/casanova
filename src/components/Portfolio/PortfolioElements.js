@@ -7,7 +7,8 @@ export const PortfolioContainer = styled.div`
      align-items:center;
      width:100%;
      height:fit-content;
-     margin-top:50px;
+     margin-top:200px;
+     margin-bottom:100px!important;
 
      @media screen and (max-width:768px){
           display:flex;
