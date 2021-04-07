@@ -17,6 +17,8 @@ export const PortfolioContainer = styled.div`
      align-items:center;
      width:100%;
      height:fit-content;
+     margin-top: 70px;
+     margin-bottom:70px!important;
      }
 `
 

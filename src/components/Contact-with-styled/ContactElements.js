@@ -31,6 +31,7 @@ export const ContactContainer = styled.div`
     flex-wrap:wrap;
     height: fit-content;
     margin-top:50px;
+    padding-bottom: 70px;
     button{
         align-self:center;
     }
@@ -51,6 +52,7 @@ export const ContactHeaderSection = styled.div`
 width:700px;
 margin-bottom:30px;
 margin-top:200px;
+
 
     h1, p{
         font-family: 'Poppins'
@@ -96,8 +98,8 @@ margin-top:200px;
 
     @media screen and (max-width:800px){
         width:340px;
-        margin-bottom: 20px;
-       margin-top:200px;
+       margin-top:70px;
+       margin-bottom:70px;
         p{
             margin-bottom:10px
         }
@@ -207,6 +209,7 @@ font-size: 16px;
     @media screen and (max-width:800px){
         margin-top:20px;
         width:fit-content;
+            /* margin-bottom:70px; */
         .static-contact-container-mobile {
             display:flex;
             justify-content:center;

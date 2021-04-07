@@ -54,22 +54,14 @@ box-sizing:border-box;
 }
 }
 
-/* @media screen and (max-width:1200px){
-#slideshow > div{
-margin-right: 45px;
-    width:580px;
-}
-}
 
-@media screen and (max-width:1080px) {
-#slideshow > div{
-margin-right: 45px;
-    width:580px;
+@media screen and (max-width:800px) {
+
     
-} */
+} 
 
 
-/* } */
+
 `
 
 export const TestimonialsStarSection = styled.div`
