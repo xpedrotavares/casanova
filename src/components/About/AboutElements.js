@@ -12,7 +12,34 @@ export const AboutContainer = styled.div`
   text-align: center;
   position: static;
   margin-top: 200px;
+  .display-off{
+  display:none;
+}
+.overflow-on{
+overflow: hidden;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+  display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   line-height: 1.5em;        /* fallback */
+   max-height: 1.5*3;       /* fallback */
 
+}
+  button{
+    width:88px;
+  height:20px;
+  color: #223240;
+  /* background-color: #223140; */
+  font-size:11px;
+  font-weight:500;
+  text-transform: none;
+  border-radius:15px;
+  /* border-color: #223240; */
+  border:0.2px solid #223240; 
+  
+  //F3A98D #223240 #000000 #223140
+}
   @media screen and (max-width: 1200px) {
     height: fit-content;
   }
@@ -70,11 +97,13 @@ export const MainSubtitle = styled.h3`
 
 export const MainParagraph = styled.p`
   width: 770px;
-  font-family: "Roboto";
+  /* line-height: 1.5em; */
+  /* height: 195px;  */
+  
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 20px;
-  line-height: 30px;
   text-align: center;
   letter-spacing: -0.015em;
   color: #727272;
@@ -92,6 +121,7 @@ export const MainParagraph = styled.p`
     line-height: 23px;
     text-align: center;
     letter-spacing: -0.015em;
+    -webkit-line-clamp: 4;
   
     br {
       display: inherit;

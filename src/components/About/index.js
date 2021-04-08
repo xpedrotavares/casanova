@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useState } from "react";
+import Button from '@material-ui/core/Button'
 import {
   AboutContainer,
   MainTitle,
@@ -9,11 +9,20 @@ import {
 import Services from "../Services";
 
 const About = () => {
+  const [overflow, setOverflow] = useState(true);
+  const [display, setDisplay] = useState(true);
+  const handleClick = () =>{
+ setOverflow(false);
+ setDisplay(false);
+
+    
+}
+
   return (
     <AboutContainer id="about">
       <MainTitle>About us</MainTitle>
       <MainSubtitle>Get to know us a bit better!</MainSubtitle>
-      <MainParagraph>
+      <MainParagraph className={overflow ? "overflow-on" : ""}>
         We are two siblings who decided to unite both our passion for design and
         our skillset in construction to help you with your remodeling wishes.
         When we’re not working with our clients on their homes you can find us
@@ -30,6 +39,7 @@ const About = () => {
         <br />
         <br />
       </MainParagraph>
+      <Button onClick={handleClick} className={display ? "" : "display-off"}>Read more</Button>
       <Services />
     </AboutContainer>
   );
