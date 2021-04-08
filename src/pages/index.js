@@ -8,6 +8,7 @@ import Portfolio from '../components/Portfolio';
 import Sidebar from '../components/Sidebar'
 import Footer from '../components/Footer';
 import {HomeContainer} from "./HomeElements"
+import Pattern from '../components/Pattern';
 
 const Home = () => {
     const [ isOpen, setIsOpen ] = useState(false);
@@ -18,6 +19,7 @@ const Home = () => {
 
     return (
         <HomeContainer>
+          {/* <Pattern /> */}
           <Sidebar isOpen={isOpen} toggle={toggle} />
           <Navbar toggle={toggle} />
             <AsideSocialMedia />
