@@ -119,7 +119,7 @@ export const MainParagraph = styled.p`
 }
 
   @media screen and (max-width: 768px) {
-    width: 406px;
+    width: 343px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
