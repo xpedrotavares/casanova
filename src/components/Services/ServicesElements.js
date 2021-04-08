@@ -7,7 +7,20 @@ height:40%;
 max-width: 80%;
 justify-content: space-around;
 margin-top: 120px;
+.display-off{
+  display:none;
+}
+.overflow-on{
+overflow: hidden;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+  display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   line-height: 1.5em;        /* fallback */
+   max-height: 1.5*3;       /* fallback */
 
+}
 @media screen and (max-width:800px){
   margin-top:50px;
 }
@@ -22,6 +35,29 @@ text-align:left;
 padding: 0 40px;
 height:fit-content;
 margin-bottom:30px!important;
+
+button{
+  height:20px;
+  color: #223240;
+  /* background-color: #223140; */
+  font-size:11px;
+  font-weight:500;
+  text-transform: none;
+  border-radius:15px;
+  /* border-color: #223240; */
+  border:0.2px solid #223240; 
+  margin-top:-20px;
+  //F3A98D #223240 #000000 #223140
+}
+
+.MuiTouchRipple-root{
+  /* color: rgb(255,255,255,0.9); */
+
+}
+
+button:hover{
+  /* background-color:#223240; */
+}
 
 @media screen and (max-width:1900px){
     padding:0 70px;
@@ -59,11 +95,13 @@ margin-bottom: 0px;
 `;
 
 export const ServiceParagraph = styled.p`
+
 font-family: "Roboto";
 font-style: normal;
 font-weight: 300;
 font-size: 20px;
 line-height: 30px;
+
 
 @media screen and (max-width: 1900px) {
 
