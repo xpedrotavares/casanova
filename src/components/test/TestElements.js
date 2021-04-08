@@ -5,27 +5,21 @@ display:flex;
 justify-content:flex-end;
 align-items:center;
 height:fit-content;
-/* overflow:hidden; */
 margin-bottom:200px!important;
 width:100%;
-/* border:1px solid red; */
 box-sizing:border-box;
 .quote-author{
     font-weight: 500;
 }
 #slideshow { 
-  /* margin: 50px auto;  */
   display:flex;
   flex-direction: column;
   align-items: flex-end;
-  /* border: 1px solid red; */
   position: relative; 
   width: fit-content; 
   height: fit-content; 
   padding: 10px; 
   box-sizing:border-box;
-  
-  /* box-shadow: 0 0 20px rgba(0,0,0,0.4);  */
 }
 
 #slideshow > div { 
@@ -36,13 +30,8 @@ box-sizing:border-box;
     text-align:right;
     width:100%;
     height:fit-content;
-    /* border: 1px solid blue; */
     box-sizing:border-box;
     margin:-10px;
-  
-
-   
- 
 }
 #slideshow div p{
     width:60%;
@@ -59,9 +48,6 @@ box-sizing:border-box;
 
     
 } 
-
-
-
 `
 
 export const TestimonialsStarSection = styled.div`
@@ -72,14 +58,8 @@ export const TestimonialsStarSection = styled.div`
      margin-bottom: 20px;
      @media screen and (max-width:768px){
      margin-top: 20px;
-
      margin-bottom:10px;
-    
-
      }
-
-     /* border:1px solid red; */
-
 `
 
 export const StarImage = styled.img`
@@ -88,7 +68,5 @@ export const StarImage = styled.img`
 
      @media screen and (max-width:768px){
           width:5%;
-
-
      }
 `

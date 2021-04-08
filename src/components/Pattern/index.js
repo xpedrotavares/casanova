@@ -1,17 +1,16 @@
-import React from 'react'
-import patternImg from '../../images/pattern.svg'
+import React from "react";
+import patternImg from "../../images/pattern.svg";
 
-import { PatternContainer } from './PatternElements'
+import { PatternContainer } from "./PatternElements";
 
 const Pattern = () => {
-    return (
-        <PatternContainer>
-            <div>
+  return (
+    <PatternContainer>
+      <div>
+        <img src={patternImg} alt="Pattern" />
+      </div>
+    </PatternContainer>
+  );
+};
 
-            <img src={patternImg} alt="Pattern" />
-            </div>
-        </PatternContainer>
-    )
-}
-
-export default Pattern
+export default Pattern;

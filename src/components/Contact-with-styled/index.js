@@ -41,9 +41,7 @@ const Contact = () => {
         </p>
         <section>
           <img className="papers-icon" src={papersIcon} alt="papers icon" />
-          <p className="estimates-text">
-            We offer free estimates.
-          </p>
+          <p className="estimates-text">We offer free estimates.</p>
         </section>
         <div> </div>
       </ContactHeaderSection>

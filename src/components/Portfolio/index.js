@@ -22,9 +22,9 @@ import Test from "../test/Test";
 const Portfolio = () => {
   return (
     <PortfolioContainer id="portfolio">
-      <img id="pattern-left-top" src={patternLetfTop} />
-      <img id="pattern-left-bottom" src={patternLetfBottom} />
-      <img id="pattern-right" src={patternRight} />
+      <img id="pattern-left-top" src={patternLetfTop} alt="Geometric Pattern" />
+      <img id="pattern-left-bottom" src={patternLetfBottom}  alt="Geometric Pattern"  />
+      <img id="pattern-right" src={patternRight}  alt="Geometric Pattern"  />
       <MainTitle>Portfolio</MainTitle>
       <MainSubtitle>Projects we’re proud to have been a part of!</MainSubtitle>
       <MainParagraph>

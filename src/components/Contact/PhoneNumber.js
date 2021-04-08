@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import MaskedInput from 'react-text-mask';
-import NumberFormat from 'react-number-format';
-import OutlinedInput from '@material-ui/core/OutlinedInput';
-import InputLabel from '@material-ui/core/InputLabel';
-import FormControl from '@material-ui/core/FormControl';
+import React from "react";
+import PropTypes from "prop-types";
+import MaskedInput from "react-text-mask";
+import NumberFormat from "react-number-format";
+import OutlinedInput from "@material-ui/core/OutlinedInput";
+import InputLabel from "@material-ui/core/InputLabel";
+import FormControl from "@material-ui/core/FormControl";
 
 function TextMaskCustom(props) {
   const { inputRef, ...other } = props;
@@ -15,8 +15,23 @@ function TextMaskCustom(props) {
       ref={(ref) => {
         inputRef(ref ? ref.inputElement : null);
       }}
-      mask={['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
-      placeholderChar={'\u2000'}
+      mask={[
+        "(",
+        /[1-9]/,
+        /\d/,
+        /\d/,
+        ")",
+        " ",
+        /\d/,
+        /\d/,
+        /\d/,
+        "-",
+        /\d/,
+        /\d/,
+        /\d/,
+        /\d/,
+      ]}
+      placeholderChar={"\u2000"}
       showMask
     />
   );
@@ -56,8 +71,8 @@ NumberFormatCustom.propTypes = {
 
 export default function FormattedInputs() {
   const [values, setValues] = React.useState({
-    textmask: '(1  )    -    ',
-    numberformat: '1320',
+    textmask: "(1  )    -    ",
+    numberformat: "1320",
   });
 
   const handleChange = (event) => {
@@ -68,23 +83,20 @@ export default function FormattedInputs() {
   };
 
   return (
-  
-      <FormControl>
-<InputLabel  variant="outlined" htmlFor="formatted-text-mask-input">What's your telephone?</InputLabel>
-     
-       
-     <OutlinedInput
-     className="single-line-inputs"
-    labelWidth={170}
-      
-          value={values.textmask}
-          onChange={handleChange}
-          name="textmask"
-          id="formatted-text-mask-input"
-          inputComponent={TextMaskCustom}
-        /> 
-   
-      </FormControl>
-      
+    <FormControl>
+      <InputLabel variant="outlined" htmlFor="formatted-text-mask-input">
+        What's your telephone?
+      </InputLabel>
+
+      <OutlinedInput
+        className="single-line-inputs"
+        labelWidth={170}
+        value={values.textmask}
+        onChange={handleChange}
+        name="textmask"
+        id="formatted-text-mask-input"
+        inputComponent={TextMaskCustom}
+      />
+    </FormControl>
   );
 }

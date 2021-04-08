@@ -81,7 +81,6 @@ const AsideSocialMedia = () => {
   
         </div>
         <div className="div-social-media-imgs"></div>
-        {/* /Facebook svg/ */}
         <a href="http://www.facebook.com" rel="noreferrer" target="_blank">
              <svg
             className={follow ? "ou" : "white"}
