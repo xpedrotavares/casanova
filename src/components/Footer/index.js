@@ -9,7 +9,6 @@ import { FooterContainer } from "./FooterElements";
 import backtotopMobile from "../../images/backtotop-icon-mobile.png";
 import backtotopDesktop from "../../images/backtotop-icon-desktop.png";
 import casaNovaLogo from "../../images/logo-casanova.png";
-import certificateIcon from "../../images/certificate-icon.png"
 
 const Footer = () => {
   return (
@@ -23,8 +22,8 @@ const Footer = () => {
       </div>
       <div className="info-dev">
         <p>
-          @ 2021 CasaNova Design & Build. All rights reserved. Site designed and
-          developed by Contra Fluxo.
+          @ 2021 CasaNova Design & Build. All rights reserved. Designed by <a href="http://www.isadoraramos.com" rel="noreferrer" target="_blank">Isadora Ramos</a> and
+          development by <a href="https://www.linkedin.com/in/xpedrotavares/" rel="noreferrer" target="_blank">Pedro Tavares</a>.
         </p>
       </div>
       <Link

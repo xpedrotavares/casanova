@@ -9,6 +9,7 @@ justify-content:center;
 align-items:center;
 flex-direction: column;
 width: 700px!important;
+
 .MuiFormLabel-root{
     color:white;
 }
@@ -33,6 +34,13 @@ width: 700px!important;
 }
 @media screen and (max-width:1200px){
     width: fit-content!important;
+
+}
+@media screen and (max-width:800px){
+    #form-button{
+    
+    width: 340px;
+}
 
 }
 

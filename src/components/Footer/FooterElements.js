@@ -6,11 +6,12 @@ export const FooterContainer = styled.div`
     justify-content:flex-end;
     align-items:center;
     background-color: #304251;
-    height: 80px;
+    height: 85px;
     .info-dev{
         display:flex;
         align-items: start;
         height:30%;
+        margin-top: -10px;
         
     }
     .info-dev p {
@@ -40,7 +41,7 @@ div{
     width:fit-content;
     font-size: 15px;
     font-weight:500;
-    margin:0 0 -10px 5px;
+    margin:0 0 3px 5px;
     
 
 }
@@ -87,6 +88,19 @@ div{
     @media (max-width: 800px){
         display:flex;
         align-items:center;
+        height:185px!important;
+        .info-dev{
+          
+        margin-top: -30px;
+        
+    }
+        .info-dev p{
+          
+       width: 320px;
+        
+    }
+    
+    
         div{
             height:70%;
         }

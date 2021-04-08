@@ -57,6 +57,9 @@ button:hover{
 @media screen and (max-width:800px){
     padding:0;
     text-align: center;
+    img{
+      width:60px;
+    }
 }
 
 `;
