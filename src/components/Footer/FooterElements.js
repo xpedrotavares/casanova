@@ -85,7 +85,9 @@ div{
         cursor: pointer;
     }
  
-    @media (max-width: 800px){
+
+
+    @media screen and (max-width: 800px){
         display:flex;
         align-items:center;
         height:185px!important;
@@ -142,5 +144,13 @@ div{
 
 }
     }
+
+    @media screen and (max-width:350px){
+    .info-dev p{
+          
+          width: 300px;
+           
+       }
+}
 
 `

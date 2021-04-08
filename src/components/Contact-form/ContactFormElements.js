@@ -43,6 +43,13 @@ width: 700px!important;
 }
 
 }
+@media screen and (max-width:340px){
+    #form-button{
+    
+    width: 300px;
+}
+
+}
 
 `
 
