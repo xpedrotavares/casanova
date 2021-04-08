@@ -12,7 +12,10 @@ margin-top: 120px;
   color: #ec8f6a;
 }
 
-
+@media screen and (max-width:500px){
+  margin-top:50px;
+  max-width: 60%!important;
+}
 
 @media screen and (max-width:800px){
   margin-top:50px;
@@ -23,7 +26,14 @@ margin-top: 120px;
  
 }
 @media screen and (max-width:1800px){
-  max-width: 53%;
+  max-width: 60%!important;
+}
+@media screen and (max-width:1900px){
+  max-width: 45%!important;
+}
+
+@media screen and (max-width:2000px){
+  max-width: 80%;
 }
 /* @media screen and (max-width:1920px){
   max-width: 78%;
@@ -65,7 +75,7 @@ button:hover{
 }
 
 @media screen and (max-width:1900px){
-    padding:0 70px;
+    padding:0 40px;
     text-align: center;
 
 }
@@ -111,10 +121,8 @@ font-size: 20px;
 line-height: 30px;
 
 
-@media screen and (max-width: 1900px) {
 
-     
-}
+
 letter-spacing: -0.015em;
 color: #828282;
 

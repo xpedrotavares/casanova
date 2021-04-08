@@ -50,7 +50,7 @@ let servicesText = {
             <ServicesTitle>Phase 1</ServicesTitle>
             <ServiceParagraph>
         <ReactReadMoreReadLess
-            charLimit={90}
+            charLimit={84}
             readMoreText={"Read more"}
             readLessText={"Read less"}
             readMoreClassName="read-more-less--more"
