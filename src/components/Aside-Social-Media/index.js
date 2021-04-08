@@ -5,7 +5,7 @@ import "./styles.css"
 const AsideSocialMedia = () => {
     const [follow, setFollow] = useState(false);
   const changeTextColor = () => {
-    if (window.scrollY >= 634 &&  window.scrollY < 3204 && window.innerHeight > 550) {
+    if (window.scrollY >= 634 &&  window.scrollY < 3104 && window.innerHeight > 550) {
       setFollow(true);
     } else {
       setFollow(false);
