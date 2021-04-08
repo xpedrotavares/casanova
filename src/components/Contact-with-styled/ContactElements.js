@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 import Grid from "@material-ui/core/Grid";
-import MenuItem from '@material-ui/core/MenuItem';
 
 export const ContactContainer = styled.div`
   display: flex;
@@ -50,7 +49,7 @@ align-self:center;
 
 export const ContactHeaderSection = styled.div`
 width:700px;
-margin-bottom:30px;
+margin-bottom:10px;
 margin-top:200px;
 
 
@@ -99,7 +98,7 @@ margin-top:200px;
     @media screen and (max-width:800px){
         width:340px;
        margin-top:70px;
-       margin-bottom:70px;
+       margin-bottom:10px;
         p{
             margin-bottom:10px
         }

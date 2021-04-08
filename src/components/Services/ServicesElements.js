@@ -4,20 +4,31 @@ import Grid from "@material-ui/core/Grid"
 export const ServicesContainer = styled(Grid)`
 display: flex;
 height:40%;
-max-width: 80%;
+max-width: 160%;
 justify-content: space-around;
 margin-top: 120px;
 .read-more-less--more,
 .read-more-less--less {
   color: #ec8f6a;
 }
+
+
+
 @media screen and (max-width:800px){
   margin-top:50px;
+  max-width: 47%!important;
 }
+@media screen and (max-width:1700px){
+  max-width: 55%!important;
+ 
+}
+@media screen and (max-width:1800px){
+  max-width: 53%;
+}
+/* @media screen and (max-width:1920px){
+  max-width: 78%;
+} */
 
-@media screen and (max-width:1200px){
-  height:60%;
-}
 `;
 
 export const ServiceItem = styled(Grid)`
@@ -25,6 +36,7 @@ text-align:left;
 padding: 0 40px;
 height:fit-content;
 margin-bottom:30px!important;
+
 
 button{
   height:20px;
@@ -47,6 +59,9 @@ button{
 
 button:hover{
   /* background-color:#223240; */
+}
+@media screen and (max-width:490px){
+  max-width: 100%!important;
 }
 
 @media screen and (max-width:1900px){
