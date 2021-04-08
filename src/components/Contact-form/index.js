@@ -57,10 +57,10 @@ const ContactForm = () => {
     
     try {
       await emailjs.send(
-        "service_0w1sbsi", // "service_iw8rqxe",
-       "template_racj69e", // "template_c78rhr2",
+       "service_iw8rqxe",
+       "template_c78rhr2",
         email,
-       "user_HTSeOWb2k9sLX2fyp4HyY", // "user_vIyt2IDY0WZiyrBlYHKAm"
+       "user_vIyt2IDY0WZiyrBlYHKAm"
       );
       setEmail(emptyEmail);
       setMessage(<p className="feedack-text"><strong>Thank you for reaching out to us!</strong><br /> Someone from our extraordinary team will contact you by your preferred method within the next business day!</p>);
