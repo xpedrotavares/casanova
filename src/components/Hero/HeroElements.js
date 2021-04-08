@@ -15,9 +15,6 @@ export const HeroContainer = styled.div`
     box-shadow: 9px 6px 13px -2px rgba(24,43,61,0.86);
 -webkit-box-shadow: 9px 6px 13px -2px rgba(24,43,61,0.86);
 -moz-box-shadow: 9px 6px 13px -2px rgba(24,43,61,0.86);
-    /* box-shadow: 9px 6px 13px -3px rgba(0,0,0,0.27);
--webkit-box-shadow: 9px 6px 13px -3px rgba(0,0,0,0.27);
--moz-box-shadow: 9px 6px 13px -3px rgba(0,0,0,0.27); */
   }
   @media screen and (max-width: 1200px) {
     margin-top: 7.5vh;

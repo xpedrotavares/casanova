@@ -7,19 +7,9 @@ height:40%;
 max-width: 80%;
 justify-content: space-around;
 margin-top: 120px;
-.display-off{
-  display:none;
-}
-.overflow-on{
-overflow: hidden;
-  /* white-space: nowrap; */
-  text-overflow: ellipsis;
-  display: -webkit-box;
-   -webkit-box-orient: vertical;
-   -webkit-line-clamp: 3; /* number of lines to show */
-   line-height: 1.5em;        /* fallback */
-   max-height: 1.5*3;       /* fallback */
-
+.read-more-less--more,
+.read-more-less--less {
+  color: #ec8f6a;
 }
 @media screen and (max-width:800px){
   margin-top:50px;

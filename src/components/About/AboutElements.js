@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import Grid from "@material-ui/core/Grid";
 
+
 export const AboutContainer = styled.div`
   width: 100%;
   height: fit-content;
@@ -112,8 +113,13 @@ export const MainParagraph = styled.p`
     display: none;
   }
 
+  .read-more-less--more,
+.read-more-less--less {
+  color: #ec8f6a;
+}
+
   @media screen and (max-width: 768px) {
-    width: 320px;
+    width: 406px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
