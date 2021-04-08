@@ -16,15 +16,15 @@ export const CarouselContainer = styled(Slider)`
     height: 20.68px;
   }
   .slick-slide {
-    margin: 0 10px;
+    margin-bottom: 30px;
+    margin-right: 34px;
   }
-  .slick-list {
-    margin: 0 10px;
-  }
+ 
 .slick-slide img {
-  box-shadow: 9px 6px 13px -2px rgba(0,0,0,0.32);
--webkit-box-shadow: 9px 6px 13px -2px rgba(0,0,0,0.32);
--moz-box-shadow: 9px 6px 13px -2px rgba(0,0,0,0.32);
+  /* z-index:2000; */
+  box-shadow: -2px 12px 42px -32px rgba(0,0,0,1);
+-webkit-box-shadow: -2px 12px 42px -32px rgba(0,0,0,1);
+-moz-box-shadow: -2px 12px 42px -32px rgba(0,0,0,1);
 
 }
 
@@ -44,6 +44,7 @@ export const SlideImage = styled.img`
     width: 29vw;
     height: 40vh;
     object-fit: cover; 
+   
    
    
 
