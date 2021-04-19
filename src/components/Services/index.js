@@ -25,7 +25,7 @@ const Services = () => {
     phase3:
       "This is the bureaucratic phase. In this phase we’ll agree and sign contractual terms and provide you with a selection sheet of all materials that have been previously discussed. We will also make any changes to the design where needed and provide a rough project schedule. Here we go over the nitty gritty",
     phase4:
-      "In this phase the magic happens! Together with our team we will bring your project to life/make your remodeling wishes come to life/come true, always maintaining an open line of communication and regular updates throughout the process.",
+      "In this phase the magic happens! Together with our team we will bring your project to life, always maintaining an open line of communication and regular updates throughout the process.",
   };
 
   return (

@@ -40,12 +40,12 @@ const Hero = () => {
             duration={600}
           >
             <img src={Logo} alt="logo"/>
-          </Link>
-        </HeroLogoContainer>
-        <HeroArticle>
           <HeroSloganContainer>
             <p>DESIGN & BUILD</p>
           </HeroSloganContainer>
+          </Link>
+        </HeroLogoContainer>
+        <HeroArticle>
           <HeroTitle>
             Welcome
             <br />

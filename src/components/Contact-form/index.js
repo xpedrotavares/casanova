@@ -25,24 +25,8 @@ const emptyEmail = {
 };
 
 const ContactForm = () => {
-  const classes = useStyles();
-
-  const contactWaysArr = [
-    {
-      value: "call",
-      label: "Call me",
-    },
-    {
-      value: "Text",
-      label: "Send me a text",
-    },
-    {
-      value: "Email",
-      label: "Send me an email",
-    },
-  ];
-
   const [email, setEmail] = useState(emptyEmail);
+  const [message, setMessage] = useState(null)
 
   const handleChange = (event) => {
     event.persist();
@@ -50,7 +34,6 @@ const ContactForm = () => {
   };
 
 
-  const [message, setMessage] = useState(null)
  
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -68,6 +51,23 @@ const ContactForm = () => {
       alert("Please, try ro send your email again. If you've tried to resend it once again and it didn't work. Please send your message to info@casanovabuilders.com and inform us about this error.");
     }
   };
+  const classes = useStyles();
+
+  const contactWaysArr = [
+    {
+      value: "call",
+      label: "Call me",
+    },
+    {
+      value: "Text",
+      label: "Send me a text",
+    },
+    {
+      value: "Email",
+      label: "Send me an email",
+    },
+  ];
+
  
   return (
     <>
@@ -95,7 +95,6 @@ const ContactForm = () => {
               label="What's the best way to contact you?"
               value={email.contactWays}
               onChange={handleChange}
-              helperText="*Select the best way to contact you"
               variant="outlined"
               color="primary"
               text="primary"
@@ -124,7 +123,7 @@ const ContactForm = () => {
 
             <TextField
               className="phone-input"
-              label="What's your telephone?"
+              label="What's your phone number?"
               type="number"
               variant="outlined"
               name="from_phone"
@@ -137,7 +136,7 @@ const ContactForm = () => {
             <TextField
               id="outlined-multiline-static"
               label="Share your project with us:"
-              helperText="*If possible, include a rough size, location and time frame"
+              helperText="*If possible, please include: location, time frame and rough size of the project."
               multiline
               type="text"
               rows={7}

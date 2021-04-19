@@ -25,6 +25,7 @@ const Test = () => {
 <StarImage src={Star}></StarImage>
 <StarImage src={Star}></StarImage>
 <StarImage src={Star}></StarImage>
+<StarImage src={Star}></StarImage>
 </TestimonialsStarSection>
 <p className="costumer-quote">
             What an absolute delight it was to work with CasaNova. I have gone
@@ -42,6 +43,7 @@ const Test = () => {
         <div>
         <TestimonialsStarSection>
 
+<StarImage src={Star}></StarImage>
 <StarImage src={Star}></StarImage>
 <StarImage src={Star}></StarImage>
 <StarImage src={Star}></StarImage>

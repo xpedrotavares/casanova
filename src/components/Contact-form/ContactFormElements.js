@@ -90,7 +90,7 @@ export const ContactFormItems = styled(Grid)`
 `;
 
 export const ContactFormItemsMessage = styled(Grid)`
-  margin-top: 40px;
+  margin-top: 20px;
   #outlined-multiline-static {
     width: 670px !important;
     height: 200px;
