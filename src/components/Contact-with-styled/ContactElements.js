@@ -138,12 +138,12 @@ height:50px;
 margin-top:20px;
 
     .facebook-icon{
-        width:15px;
+        width:13.9px;
         margin-right:15px;
         margin-top:0;
     }
     .instagram-icon{
-        width:30px;
+        width:28px;
         margin-top:0;
         margin-bottom:0;
         margin-left:15px;

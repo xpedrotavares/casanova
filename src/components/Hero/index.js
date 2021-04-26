@@ -40,9 +40,7 @@ const Hero = () => {
             duration={600}
           >
             <img src={Logo} alt="logo"/>
-          <HeroSloganContainer>
-            <p>DESIGN & BUILD</p>
-          </HeroSloganContainer>
+      
           </Link>
         </HeroLogoContainer>
         <HeroArticle>
