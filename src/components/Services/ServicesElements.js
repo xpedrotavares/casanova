@@ -34,6 +34,9 @@ export const ServicesContainer = styled(Grid)`
   @media screen and (max-width: 2000px) {
     max-width: 80%;
   }
+  @media screen and (min-width: 2000px) {
+    max-width: 80%;
+  }
 `;
 
 export const ServiceItem = styled(Grid)`
