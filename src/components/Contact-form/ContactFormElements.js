@@ -74,7 +74,8 @@ export const ContactFormItems = styled(Grid)`
       margin-top: 30px;
     }
     .email-field {
-      margin-top: 15px;
+      margin-top: 30px;
+      
     }
   }
   @media screen and (max-width: 320px) {
@@ -84,7 +85,9 @@ export const ContactFormItems = styled(Grid)`
       margin-top: 30px;
     }
     .email-field {
-      margin-top: 15px;
+      margin-top: 30px;
+      
+
     }
   }
 `;
