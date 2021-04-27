@@ -16,6 +16,17 @@ export const HeroContainer = styled.div`
 -webkit-box-shadow: 9px 6px 13px -2px rgba(24,43,61,0.86);
 -moz-box-shadow: 9px 6px 13px -2px rgba(24,43,61,0.86);
   }
+  .certificate-text{
+    color: white;
+    width:fit-content;
+    font-size: 15px;
+    font-weight:500;
+    margin:20px 0 3px 5px;
+}
+.homeadvisor-icon{
+  margin-top: -2px;
+ 
+}
   @media screen and (max-width: 1200px) {
     margin-top: 7.5vh;
     height: 92.5vh;
@@ -165,8 +176,9 @@ export const CalltoActionButton = styled(Button)`
 
 export const SocialMediaContainer = styled.div`
   display: none;
+ 
   @media screen and (max-width: 1200px) {
-    width: 60px;
+    width: 75px;
     display: flex;
     justify-content: space-between;
     margin-top: 24px;

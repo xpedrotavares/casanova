@@ -20,7 +20,7 @@ const Footer = () => {
             alt="casanova logo"
           />
 
-          <p className="certificate-text">Licensed & insured.</p>
+     
         </div>
       </div>
       <div className="info-dev">

@@ -17,9 +17,9 @@ const Navbar = ({ toggle }) => {
   const [nav, setNav] = useState(false);
   const changeTextColor = () => {
     if (
-      window.scrollY >= 800 &&
+      window.scrollY >= 740 &&
       window.scrollY < 3200 &&
-      window.innerHeight > 700
+      window.innerHeight > 660
     ) {
       setNav(true);
     } else {

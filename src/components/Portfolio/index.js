@@ -29,9 +29,7 @@ const Portfolio = () => {
       <MainSubtitle>Projects we’re proud to have been a part of!</MainSubtitle>
       <MainParagraph>
         Through open communication and exceptional craftsmanship watch your
-        remodeling dreams come to life! Our knowledgeable and friendly team
-        strives not only to exceed your expectations but also to help turn your
-        house into a home.
+        remodeling dreams come to life! We strive to exceed your expectations and pride ourselves in delivering remarkable results at a fair price. 
       </MainParagraph>
       <CarouselSection>
         <Carousel />

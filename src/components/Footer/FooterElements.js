@@ -37,14 +37,7 @@ div{
     height:65%;
     width:100%;
 } 
-.certificate-text{
-    width:fit-content;
-    font-size: 15px;
-    font-weight:500;
-    margin:0 0 3px 5px;
-    
 
-}
 .certificate-container{
     display:flex;
     flex-direction: column;
