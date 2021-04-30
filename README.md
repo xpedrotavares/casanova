@@ -19,7 +19,7 @@
 
 ## 📝 About
   
-Project <i> in progress </i> for CasaNova Design & Build of Fairfax, VA. This is my first professional project as a Web Developer. It is a onepage website composed of Home, About, Portfolio and Contact. In addition to my junior web developer skills, it was necessary to compose a layout using my ui design skills. **logo, colors and typography were already defined**
+Project <i> in progress </i> for CasaNova Design & Build of Fairfax, VA. This is my first professional project as a Web Developer. It is a onepage website composed of Home, About, Portfolio and Contact.
 
 ## 💻 Technologies
 
